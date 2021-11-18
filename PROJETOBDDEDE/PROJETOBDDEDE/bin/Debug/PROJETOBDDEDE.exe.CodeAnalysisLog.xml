@@ -1,38 +1,51 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio 14.0\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
-<FxCopReport Version="14.0">
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio\2019\community\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="16.0">
  <Namespaces>
   <Namespace Name="PROJETOBDDEDE">
    <Messages>
-    <Message Id="PROJETOBDDEDE" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="Breaking">
-     <Issue Name="Namespace" Certainty="85" Level="Error">Correct the casing of 'PROJETOBDDEDE' in namespace name 'PROJETOBDDEDE' by changing it to 'Projetobddede'.</Issue>
+    <Message Id="PROJETOBDDEDE" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2021-11-18 17:53:11Z" FixCategory="Breaking">
+     <Issue Name="Namespace" Certainty="85" Level="Error">Corrija o uso de maiúsculas e minúsculas de 'PROJETOBDDEDE' no nome de namespace 'PROJETOBDDEDE' alterando-o para 'Projetobddede'.</Issue>
     </Message>
    </Messages>
   </Namespace>
   <Namespace Name="PROJETOBDDEDE.SchoolManagerDataSetTableAdapters">
    <Messages>
-    <Message Id="PROJETOBDDEDE" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="Breaking">
-     <Issue Name="Namespace" Certainty="85" Level="Error">Correct the casing of 'PROJETOBDDEDE' in namespace name 'PROJETOBDDEDE.SchoolManagerDataSetTableAdapters' by changing it to 'Projetobddede'.</Issue>
+    <Message Id="PROJETOBDDEDE" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2021-11-18 17:53:11Z" FixCategory="Breaking">
+     <Issue Name="Namespace" Certainty="85" Level="Error">Corrija o uso de maiúsculas e minúsculas de 'PROJETOBDDEDE' no nome de namespace 'PROJETOBDDEDE.SchoolManagerDataSetTableAdapters' alterando-o para 'Projetobddede'.</Issue>
+    </Message>
+   </Messages>
+  </Namespace>
+  <Namespace Name="PROJETOBDDEDE.src.forms">
+   <Messages>
+    <Message Id="PROJETOBDDEDE" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2021-11-18 17:53:11Z" FixCategory="Breaking">
+     <Issue Name="Namespace" Certainty="85" Level="Error">Corrija o uso de maiúsculas e minúsculas de 'PROJETOBDDEDE' no nome de namespace 'PROJETOBDDEDE.src.forms' alterando-o para 'Projetobddede'.</Issue>
+    </Message>
+    <Message Id="forms" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2021-11-18 17:53:11Z" FixCategory="Breaking">
+     <Issue Name="Namespace" Certainty="85" Level="Error">Corrija o uso de maiúsculas e minúsculas de 'forms' no nome de namespace 'PROJETOBDDEDE.src.forms' alterando-o para 'Forms'.</Issue>
+    </Message>
+    <Message Id="src" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2021-11-18 17:53:11Z" FixCategory="Breaking">
+     <Issue Name="Namespace" Certainty="85" Level="Error">Corrija o uso de maiúsculas e minúsculas de 'src' no nome de namespace 'PROJETOBDDEDE.src.forms' alterando-o para 'Src'.</Issue>
     </Message>
    </Messages>
   </Namespace>
  </Namespaces>
  <Targets>
-  <Target Name="E:\PROJETOBDDEDE\PROJETOBDDEDE\bin\Debug\PROJETOBDDEDE.exe">
+  <Target Name="F:\PROJETOBDDEDE\PROJETOBDDEDE\bin\Debug\PROJETOBDDEDE.exe">
    <Modules>
     <Module Name="projetobddede.exe">
      <Messages>
-      <Message TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="NonBreaking">
-       <Issue Name="NoStrongName" Certainty="95" Level="CriticalError">Sign 'PROJETOBDDEDE.exe' with a strong name key.</Issue>
+      <Message TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210" Status="Active" Created="2021-11-18 17:53:11Z" FixCategory="NonBreaking">
+       <Issue Name="NoStrongName" Certainty="95" Level="CriticalError">Assine 'PROJETOBDDEDE.exe' com uma chave de nome forte.</Issue>
       </Message>
-      <Message Id="PROJETOBDDEDE" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="Breaking">
-       <Issue Name="Assembly" Certainty="85" Level="Error">Correct the casing of 'PROJETOBDDEDE' in assembly name 'PROJETOBDDEDE.exe' by changing it to 'Projetobddede'.</Issue>
+      <Message Id="PROJETOBDDEDE" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2021-11-18 17:53:11Z" FixCategory="Breaking">
+       <Issue Name="Assembly" Certainty="85" Level="Error">Corrija o uso de maiúsculas e minúsculas de 'PROJETOBDDEDE' no nome de assembly 'PROJETOBDDEDE.exe' alterando-o para 'Projetobddede'.</Issue>
       </Message>
-      <Message TypeName="MarkAssembliesWithClsCompliant" Category="Microsoft.Design" CheckId="CA1014" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="NonBreaking">
-       <Issue Certainty="95" Level="Error">Mark 'PROJETOBDDEDE.exe' with CLSCompliant(true) because it exposes externally visible types.</Issue>
+      <Message TypeName="MarkAssembliesWithClsCompliant" Category="Microsoft.Design" CheckId="CA1014" Status="Active" Created="2021-11-18 17:53:11Z" FixCategory="NonBreaking">
+       <Issue Certainty="95" Level="Error">Marque 'PROJETOBDDEDE.exe' com CLSCompliant(true) porque expõe externamente os tipos visíveis.</Issue>
       </Message>
-      <Message TypeName="MarkAssembliesWithNeutralResourcesLanguage" Category="Microsoft.Performance" CheckId="CA1824" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="NonBreaking">
-       <Issue Certainty="95" Level="Warning">Because assembly 'PROJETOBDDEDE.exe' contains a ResX-based resource file, mark it with the NeutralResourcesLanguage attribute, specifying the language of the resources within the assembly. This could improve lookup performance the first time a resource is retrieved.</Issue>
+      <Message TypeName="MarkAssembliesWithNeutralResourcesLanguage" Category="Microsoft.Performance" CheckId="CA1824" Status="Active" Created="2021-11-18 17:53:11Z" FixCategory="NonBreaking">
+       <Issue Certainty="95" Level="Warning">Como o assembly 'PROJETOBDDEDE.exe' contém um arquivo de recursos baseado em ResX, marque-o com o atributo NeutralResourcesLanguage, especificando o idioma dos recursos dentro do assembly. Isso poderá melhorar o desempenho da pesquisa na primeira vez que um recurso for recuperado.</Issue>
       </Message>
      </Messages>
      <Namespaces>
@@ -40,66 +53,40 @@
        <Types>
         <Type Name="Form1" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Members>
+          <Member Name="#btnPesquisa_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Descartar objetos antes de perder o escopo" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2021-11-18 17:53:11Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="F:\PROJETOBDDEDE\PROJETOBDDEDE\src\forms" File="Form1.cs" Line="75">No método 'Form1.btnPesquisa_Click(object, EventArgs)', chame System.IDisposable.Dispose no objeto 'new frmViewAluno()' antes que todas as referências a ele fiquem fora do escopo.</Issue>
+            </Message>
+           </Messages>
+          </Member>
           <Member Name="#InitializeComponent()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message Id="System.Windows.Forms.Control.set_Text(System.String)" TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="DependsOnFix">
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="Form1.Designer.cs" Line="203">Method 'Form1.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Aluno".</Issue>
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="Form1.Designer.cs" Line="284">Method 'Form1.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Aluno".</Issue>
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="Form1.Designer.cs" Line="347">Method 'Form1.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Aluno".</Issue>
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="Form1.Designer.cs" Line="412">Method 'Form1.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Aluno".</Issue>
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="Form1.Designer.cs" Line="230">Method 'Form1.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Deseja cadastrar um:".</Issue>
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="Form1.Designer.cs" Line="385">Method 'Form1.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Deseja excluir um:".</Issue>
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="Form1.Designer.cs" Line="448">Method 'Form1.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Deseja modificar um:".</Issue>
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="Form1.Designer.cs" Line="320">Method 'Form1.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Deseja visualizar um:".</Issue>
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="Form1.Designer.cs" Line="164">Method 'Form1.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Diário de um Banana".</Issue>
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="Form1.Designer.cs" Line="217">Method 'Form1.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Professor".</Issue>
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="Form1.Designer.cs" Line="308">Method 'Form1.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Professor".</Issue>
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="Form1.Designer.cs" Line="372">Method 'Form1.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Professor".</Issue>
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="Form1.Designer.cs" Line="436">Method 'Form1.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Professor".</Issue>
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="Form1.Designer.cs" Line="241">Method 'Form1.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "ou".</Issue>
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="Form1.Designer.cs" Line="296">Method 'Form1.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "ou".</Issue>
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="Form1.Designer.cs" Line="360">Method 'Form1.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "ou".</Issue>
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="Form1.Designer.cs" Line="424">Method 'Form1.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "ou".</Issue>
-            </Message>
-            <Message Id="Aluno" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="DependsOnFix">
-             <Issue Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="Form1.Designer.cs" Line="203">Correct the spelling of the unrecognized token 'Aluno' in the literal '"Aluno"'.</Issue>
-             <Issue Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="Form1.Designer.cs" Line="284">Correct the spelling of the unrecognized token 'Aluno' in the literal '"Aluno"'.</Issue>
-             <Issue Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="Form1.Designer.cs" Line="347">Correct the spelling of the unrecognized token 'Aluno' in the literal '"Aluno"'.</Issue>
-             <Issue Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="Form1.Designer.cs" Line="412">Correct the spelling of the unrecognized token 'Aluno' in the literal '"Aluno"'.</Issue>
-            </Message>
-            <Message Id="Deseja" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="DependsOnFix">
-             <Issue Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="Form1.Designer.cs" Line="230">Correct the spelling of the unrecognized token 'Deseja' in the literal '"Deseja cadastrar um:"'.</Issue>
-             <Issue Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="Form1.Designer.cs" Line="385">Correct the spelling of the unrecognized token 'Deseja' in the literal '"Deseja excluir um:"'.</Issue>
-             <Issue Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="Form1.Designer.cs" Line="448">Correct the spelling of the unrecognized token 'Deseja' in the literal '"Deseja modificar um:"'.</Issue>
-             <Issue Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="Form1.Designer.cs" Line="320">Correct the spelling of the unrecognized token 'Deseja' in the literal '"Deseja visualizar um:"'.</Issue>
-            </Message>
-            <Message Id="Diário" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="DependsOnFix">
-             <Issue Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="Form1.Designer.cs" Line="164">Correct the spelling of the unrecognized token 'Diário' in the literal '"Diário de um Banana"'.</Issue>
-            </Message>
-            <Message Id="cadastrar" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="DependsOnFix">
-             <Issue Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="Form1.Designer.cs" Line="230">Correct the spelling of the unrecognized token 'cadastrar' in the literal '"Deseja cadastrar um:"'.</Issue>
-            </Message>
-            <Message Id="excluir" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="DependsOnFix">
-             <Issue Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="Form1.Designer.cs" Line="385">Correct the spelling of the unrecognized token 'excluir' in the literal '"Deseja excluir um:"'.</Issue>
-            </Message>
-            <Message Id="modificar" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="DependsOnFix">
-             <Issue Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="Form1.Designer.cs" Line="448">Correct the spelling of the unrecognized token 'modificar' in the literal '"Deseja modificar um:"'.</Issue>
-            </Message>
-            <Message Id="ou" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="DependsOnFix">
-             <Issue Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="Form1.Designer.cs" Line="241">Correct the spelling of the unrecognized token 'ou' in the literal '"ou"'.</Issue>
-             <Issue Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="Form1.Designer.cs" Line="296">Correct the spelling of the unrecognized token 'ou' in the literal '"ou"'.</Issue>
-             <Issue Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="Form1.Designer.cs" Line="360">Correct the spelling of the unrecognized token 'ou' in the literal '"ou"'.</Issue>
-             <Issue Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="Form1.Designer.cs" Line="424">Correct the spelling of the unrecognized token 'ou' in the literal '"ou"'.</Issue>
-            </Message>
-            <Message Id="visualizar" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="DependsOnFix">
-             <Issue Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="Form1.Designer.cs" Line="320">Correct the spelling of the unrecognized token 'visualizar' in the literal '"Deseja visualizar um:"'.</Issue>
+            <Message Id="System.Windows.Forms.Control.set_Text(System.String)" TypeName="Não passar literais como parâmetros localizados" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2021-11-18 17:53:11Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="F:\PROJETOBDDEDE\PROJETOBDDEDE\src\forms" File="Form1.Designer.cs" Line="204">O método 'Form1.InitializeComponent()' passa uma cadeia de caracteres literal como parâmetro "value" de uma chamada para 'Control.Text.set(string)'. Recupere as seguintes cadeias de caracteres de uma tabela de recursos: "Aluno".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="F:\PROJETOBDDEDE\PROJETOBDDEDE\src\forms" File="Form1.Designer.cs" Line="285">O método 'Form1.InitializeComponent()' passa uma cadeia de caracteres literal como parâmetro "value" de uma chamada para 'Control.Text.set(string)'. Recupere as seguintes cadeias de caracteres de uma tabela de recursos: "Aluno".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="F:\PROJETOBDDEDE\PROJETOBDDEDE\src\forms" File="Form1.Designer.cs" Line="350">O método 'Form1.InitializeComponent()' passa uma cadeia de caracteres literal como parâmetro "value" de uma chamada para 'Control.Text.set(string)'. Recupere as seguintes cadeias de caracteres de uma tabela de recursos: "Aluno".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="F:\PROJETOBDDEDE\PROJETOBDDEDE\src\forms" File="Form1.Designer.cs" Line="413">O método 'Form1.InitializeComponent()' passa uma cadeia de caracteres literal como parâmetro "value" de uma chamada para 'Control.Text.set(string)'. Recupere as seguintes cadeias de caracteres de uma tabela de recursos: "Aluno".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="F:\PROJETOBDDEDE\PROJETOBDDEDE\src\forms" File="Form1.Designer.cs" Line="231">O método 'Form1.InitializeComponent()' passa uma cadeia de caracteres literal como parâmetro "value" de uma chamada para 'Control.Text.set(string)'. Recupere as seguintes cadeias de caracteres de uma tabela de recursos: "Deseja cadastrar um:".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="F:\PROJETOBDDEDE\PROJETOBDDEDE\src\forms" File="Form1.Designer.cs" Line="323">O método 'Form1.InitializeComponent()' passa uma cadeia de caracteres literal como parâmetro "value" de uma chamada para 'Control.Text.set(string)'. Recupere as seguintes cadeias de caracteres de uma tabela de recursos: "Deseja excluir um:".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="F:\PROJETOBDDEDE\PROJETOBDDEDE\src\forms" File="Form1.Designer.cs" Line="449">O método 'Form1.InitializeComponent()' passa uma cadeia de caracteres literal como parâmetro "value" de uma chamada para 'Control.Text.set(string)'. Recupere as seguintes cadeias de caracteres de uma tabela de recursos: "Deseja modificar um:".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="F:\PROJETOBDDEDE\PROJETOBDDEDE\src\forms" File="Form1.Designer.cs" Line="386">O método 'Form1.InitializeComponent()' passa uma cadeia de caracteres literal como parâmetro "value" de uma chamada para 'Control.Text.set(string)'. Recupere as seguintes cadeias de caracteres de uma tabela de recursos: "Deseja visualizar um:".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="F:\PROJETOBDDEDE\PROJETOBDDEDE\src\forms" File="Form1.Designer.cs" Line="165">O método 'Form1.InitializeComponent()' passa uma cadeia de caracteres literal como parâmetro "value" de uma chamada para 'Control.Text.set(string)'. Recupere as seguintes cadeias de caracteres de uma tabela de recursos: "Diário de um Banana".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="F:\PROJETOBDDEDE\PROJETOBDDEDE\src\forms" File="Form1.Designer.cs" Line="218">O método 'Form1.InitializeComponent()' passa uma cadeia de caracteres literal como parâmetro "value" de uma chamada para 'Control.Text.set(string)'. Recupere as seguintes cadeias de caracteres de uma tabela de recursos: "Professor".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="F:\PROJETOBDDEDE\PROJETOBDDEDE\src\forms" File="Form1.Designer.cs" Line="310">O método 'Form1.InitializeComponent()' passa uma cadeia de caracteres literal como parâmetro "value" de uma chamada para 'Control.Text.set(string)'. Recupere as seguintes cadeias de caracteres de uma tabela de recursos: "Professor".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="F:\PROJETOBDDEDE\PROJETOBDDEDE\src\forms" File="Form1.Designer.cs" Line="374">O método 'Form1.InitializeComponent()' passa uma cadeia de caracteres literal como parâmetro "value" de uma chamada para 'Control.Text.set(string)'. Recupere as seguintes cadeias de caracteres de uma tabela de recursos: "Professor".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="F:\PROJETOBDDEDE\PROJETOBDDEDE\src\forms" File="Form1.Designer.cs" Line="437">O método 'Form1.InitializeComponent()' passa uma cadeia de caracteres literal como parâmetro "value" de uma chamada para 'Control.Text.set(string)'. Recupere as seguintes cadeias de caracteres de uma tabela de recursos: "Professor".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="F:\PROJETOBDDEDE\PROJETOBDDEDE\src\forms" File="Form1.Designer.cs" Line="242">O método 'Form1.InitializeComponent()' passa uma cadeia de caracteres literal como parâmetro "value" de uma chamada para 'Control.Text.set(string)'. Recupere as seguintes cadeias de caracteres de uma tabela de recursos: "ou".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="F:\PROJETOBDDEDE\PROJETOBDDEDE\src\forms" File="Form1.Designer.cs" Line="298">O método 'Form1.InitializeComponent()' passa uma cadeia de caracteres literal como parâmetro "value" de uma chamada para 'Control.Text.set(string)'. Recupere as seguintes cadeias de caracteres de uma tabela de recursos: "ou".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="F:\PROJETOBDDEDE\PROJETOBDDEDE\src\forms" File="Form1.Designer.cs" Line="362">O método 'Form1.InitializeComponent()' passa uma cadeia de caracteres literal como parâmetro "value" de uma chamada para 'Control.Text.set(string)'. Recupere as seguintes cadeias de caracteres de uma tabela de recursos: "ou".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="F:\PROJETOBDDEDE\PROJETOBDDEDE\src\forms" File="Form1.Designer.cs" Line="425">O método 'Form1.InitializeComponent()' passa uma cadeia de caracteres literal como parâmetro "value" de uma chamada para 'Control.Text.set(string)'. Recupere as seguintes cadeias de caracteres de uma tabela de recursos: "ou".</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#invisibleGroup(System.Windows.Forms.GroupBox)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="NonBreaking">
-             <Issue Certainty="95" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="Form1.cs" Line="23">The 'this' parameter (or 'Me' in Visual Basic) of 'Form1.invisibleGroup(GroupBox)' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2021-11-18 17:53:11Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="F:\PROJETOBDDEDE\PROJETOBDDEDE\src\forms" File="Form1.cs" Line="23">O parâmetro 'this' (ou 'Me' no Visual Basic) de 'Form1.invisibleGroup(GroupBox)' nunca é usado. Marque o membro como estático (ou Compartilhado no Visual Basic) ou use 'this'/'Me' no corpo do método ou pelo menos um acessador de propriedade, se for adequado.</Issue>
             </Message>
            </Messages>
           </Member>
@@ -107,99 +94,48 @@
         </Type>
         <Type Name="frmAddAluno" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message Id="frm" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="Breaking">
-           <Issue Name="Type" Certainty="85" Level="Error">Correct the casing of 'frm' in type name 'frmAddAluno' by changing it to 'Frm'.</Issue>
-          </Message>
-          <Message Id="Aluno" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="Breaking">
-           <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Aluno' in type name 'frmAddAluno'.</Issue>
-          </Message>
-          <Message Id="frm" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="Breaking">
-           <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'frm' in type name 'frmAddAluno'.</Issue>
+          <Message Id="frm" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2021-11-18 17:53:11Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="85" Level="Error">Corrija o uso de maiúsculas e minúsculas de 'frm' no nome de tipo 'frmAddAluno' alterando-o para 'Frm'.</Issue>
           </Message>
          </Messages>
          <Members>
           <Member Name="#btnEnviar_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message Id="System.Windows.Forms.MessageBox.Show(System.String)" TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="DependsOnFix">
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmAddAluno.cs" Line="38">Method 'frmAddAluno.btnEnviar_Click(object, EventArgs)' passes a literal string as parameter 'text' of a call to 'MessageBox.Show(string)'. Retrieve the following string(s) from a resource table instead: "Aluno Cadastrado com Sucesso! :)".</Issue>
+            <Message TypeName="DoNotCatchGeneralExceptionTypes" Category="Microsoft.Design" CheckId="CA1031" Status="Active" Created="2021-11-18 17:53:11Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalError" Path="F:\PROJETOBDDEDE\PROJETOBDDEDE\src\forms" File="frmAddAluno.cs" Line="40">Modifique 'frmAddAluno.btnEnviar_Click(object, EventArgs)' para capturar uma exceção mais específica que 'Exception' ou relançar a exceção.</Issue>
             </Message>
-            <Message Id="System.Windows.Forms.MessageBox.Show(System.String,System.String,System.Windows.Forms.MessageBoxButtons,System.Windows.Forms.MessageBoxIcon)" TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="DependsOnFix">
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmAddAluno.cs" Line="42">Method 'frmAddAluno.btnEnviar_Click(object, EventArgs)' passes a literal string as parameter 'caption' of a call to 'MessageBox.Show(string, string, MessageBoxButtons, MessageBoxIcon)'. Retrieve the following string(s) from a resource table instead: "Erro".</Issue>
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmAddAluno.cs" Line="42">Method 'frmAddAluno.btnEnviar_Click(object, EventArgs)' passes a literal string as parameter 'text' of a call to 'MessageBox.Show(string, string, MessageBoxButtons, MessageBoxIcon)'. Retrieve the following string(s) from a resource table instead: "Erro ao cadastrar aluno! Erro:".</Issue>
+            <Message Id="System.Windows.Forms.MessageBox.Show(System.String)" TypeName="Não passar literais como parâmetros localizados" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2021-11-18 17:53:11Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="F:\PROJETOBDDEDE\PROJETOBDDEDE\src\forms" File="frmAddAluno.cs" Line="38">O método 'frmAddAluno.btnEnviar_Click(object, EventArgs)' passa uma cadeia de caracteres literal como parâmetro "text" de uma chamada para 'MessageBox.Show(string)'. Recupere as seguintes cadeias de caracteres de uma tabela de recursos: "Aluno Cadastrado com Sucesso! :)".</Issue>
             </Message>
-            <Message TypeName="DoNotCatchGeneralExceptionTypes" Category="Microsoft.Design" CheckId="CA1031" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="NonBreaking">
-             <Issue Certainty="95" Level="CriticalError" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmAddAluno.cs" Line="40">Modify 'frmAddAluno.btnEnviar_Click(object, EventArgs)' to catch a more specific exception than 'Exception' or rethrow the exception.</Issue>
+            <Message Id="System.Windows.Forms.MessageBox.Show(System.String,System.String,System.Windows.Forms.MessageBoxButtons,System.Windows.Forms.MessageBoxIcon)" TypeName="Não passar literais como parâmetros localizados" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2021-11-18 17:53:11Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="F:\PROJETOBDDEDE\PROJETOBDDEDE\src\forms" File="frmAddAluno.cs" Line="42">O método 'frmAddAluno.btnEnviar_Click(object, EventArgs)' passa uma cadeia de caracteres literal como parâmetro "caption" de uma chamada para 'MessageBox.Show(string, string, MessageBoxButtons, MessageBoxIcon)'. Recupere as seguintes cadeias de caracteres de uma tabela de recursos: "Erro".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="F:\PROJETOBDDEDE\PROJETOBDDEDE\src\forms" File="frmAddAluno.cs" Line="42">O método 'frmAddAluno.btnEnviar_Click(object, EventArgs)' passa uma cadeia de caracteres literal como parâmetro "text" de uma chamada para 'MessageBox.Show(string, string, MessageBoxButtons, MessageBoxIcon)'. Recupere as seguintes cadeias de caracteres de uma tabela de recursos: "Erro ao cadastrar aluno! Erro:".</Issue>
             </Message>
-            <Message Id="Aluno" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="DependsOnFix">
-             <Issue Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmAddAluno.cs" Line="38">Correct the spelling of the unrecognized token 'Aluno' in the literal '"Aluno Cadastrado com Sucesso! :)"'.</Issue>
-            </Message>
-            <Message Id="Cadastrado" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="DependsOnFix">
-             <Issue Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmAddAluno.cs" Line="38">Correct the spelling of the unrecognized token 'Cadastrado' in the literal '"Aluno Cadastrado com Sucesso! :)"'.</Issue>
-            </Message>
-            <Message Id="Erro" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="DependsOnFix">
-             <Issue Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmAddAluno.cs" Line="42">Correct the spelling of the unrecognized token 'Erro' in the literal '"Erro ao cadastrar aluno! Erro:"'.</Issue>
-             <Issue Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmAddAluno.cs" Line="42">Correct the spelling of the unrecognized token 'Erro' in the literal '"Erro ao cadastrar aluno! Erro:"'.</Issue>
-             <Issue Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmAddAluno.cs" Line="42">Correct the spelling of the unrecognized token 'Erro' in the literal '"Erro"'.</Issue>
-            </Message>
-            <Message Id="Sucesso" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="DependsOnFix">
-             <Issue Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmAddAluno.cs" Line="38">Correct the spelling of the unrecognized token 'Sucesso' in the literal '"Aluno Cadastrado com Sucesso! :)"'.</Issue>
-            </Message>
-            <Message Id="aluno" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="DependsOnFix">
-             <Issue Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmAddAluno.cs" Line="42">Correct the spelling of the unrecognized token 'aluno' in the literal '"Erro ao cadastrar aluno! Erro:"'.</Issue>
-            </Message>
-            <Message Id="ao" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="DependsOnFix">
-             <Issue Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmAddAluno.cs" Line="42">Correct the spelling of the unrecognized token 'ao' in the literal '"Erro ao cadastrar aluno! Erro:"'.</Issue>
-            </Message>
-            <Message Id="cadastrar" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="DependsOnFix">
-             <Issue Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmAddAluno.cs" Line="42">Correct the spelling of the unrecognized token 'cadastrar' in the literal '"Erro ao cadastrar aluno! Erro:"'.</Issue>
-            </Message>
-            <Message TypeName="SpecifyMessageBoxOptions" Category="Microsoft.Globalization" CheckId="CA1300" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="NonBreaking">
-             <Issue Certainty="95" Level="Error" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmAddAluno.cs" Line="38">Change 'frmAddAluno.btnEnviar_Click(object, EventArgs)' to call the MessageBox.Show overload that specifies MessageBoxOptions, and make sure to set MessageBoxOptions.RightAlign and MessageBoxOptions.RtlReading if RightToLeft is set to RightToLeft.Yes on the parent control.</Issue>
-             <Issue Certainty="95" Level="Error" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmAddAluno.cs" Line="42">Change 'frmAddAluno.btnEnviar_Click(object, EventArgs)' to call the MessageBox.Show overload that specifies MessageBoxOptions, and make sure to set MessageBoxOptions.RightAlign and MessageBoxOptions.RtlReading if RightToLeft is set to RightToLeft.Yes on the parent control.</Issue>
+            <Message TypeName="SpecifyMessageBoxOptions" Category="Microsoft.Globalization" CheckId="CA1300" Status="Active" Created="2021-11-18 17:53:11Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="F:\PROJETOBDDEDE\PROJETOBDDEDE\src\forms" File="frmAddAluno.cs" Line="38">Altere 'frmAddAluno.btnEnviar_Click(object, EventArgs)' para chamar a sobrecarga MessageBox.Show que especifica MessageBoxOptions, e defina MessageBoxOptions.RightAlign e MessageBoxOptions.RtlReading se RightToLeft estiver definido para RightToLeft.Yes no controle pai.</Issue>
+             <Issue Certainty="95" Level="Error" Path="F:\PROJETOBDDEDE\PROJETOBDDEDE\src\forms" File="frmAddAluno.cs" Line="42">Altere 'frmAddAluno.btnEnviar_Click(object, EventArgs)' para chamar a sobrecarga MessageBox.Show que especifica MessageBoxOptions, e defina MessageBoxOptions.RightAlign e MessageBoxOptions.RtlReading se RightToLeft estiver definido para RightToLeft.Yes no controle pai.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#InitializeComponent()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message Id="System.Windows.Forms.Control.set_Text(System.String)" TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="DependsOnFix">
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmAddAluno.Designer.cs" Line="108">Method 'frmAddAluno.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Classe:".</Issue>
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmAddAluno.Designer.cs" Line="303">Method 'frmAddAluno.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Data de Nascimento:".</Issue>
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmAddAluno.Designer.cs" Line="121">Method 'frmAddAluno.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Email:".</Issue>
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmAddAluno.Designer.cs" Line="290">Method 'frmAddAluno.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Endereço:".</Issue>
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmAddAluno.Designer.cs" Line="266">Method 'frmAddAluno.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Enviar".</Issue>
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmAddAluno.Designer.cs" Line="95">Method 'frmAddAluno.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Nome:".</Issue>
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmAddAluno.Designer.cs" Line="69">Method 'frmAddAluno.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "RA:".</Issue>
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmAddAluno.Designer.cs" Line="82">Method 'frmAddAluno.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "RM:".</Issue>
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmAddAluno.Designer.cs" Line="160">Method 'frmAddAluno.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Responsável Secundário:".</Issue>
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmAddAluno.Designer.cs" Line="134">Method 'frmAddAluno.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Responsável:".</Issue>
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmAddAluno.Designer.cs" Line="173">Method 'frmAddAluno.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Tel. do Responsável Secundário:".</Issue>
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmAddAluno.Designer.cs" Line="147">Method 'frmAddAluno.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Tel. do Responsável:".</Issue>
+            <Message Id="System.Windows.Forms.Control.set_Text(System.String)" TypeName="Não passar literais como parâmetros localizados" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2021-11-18 17:53:11Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="F:\PROJETOBDDEDE\PROJETOBDDEDE\src\forms" File="frmAddAluno.Designer.cs" Line="108">O método 'frmAddAluno.InitializeComponent()' passa uma cadeia de caracteres literal como parâmetro "value" de uma chamada para 'Control.Text.set(string)'. Recupere as seguintes cadeias de caracteres de uma tabela de recursos: "Classe:".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="F:\PROJETOBDDEDE\PROJETOBDDEDE\src\forms" File="frmAddAluno.Designer.cs" Line="303">O método 'frmAddAluno.InitializeComponent()' passa uma cadeia de caracteres literal como parâmetro "value" de uma chamada para 'Control.Text.set(string)'. Recupere as seguintes cadeias de caracteres de uma tabela de recursos: "Data de Nascimento:".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="F:\PROJETOBDDEDE\PROJETOBDDEDE\src\forms" File="frmAddAluno.Designer.cs" Line="121">O método 'frmAddAluno.InitializeComponent()' passa uma cadeia de caracteres literal como parâmetro "value" de uma chamada para 'Control.Text.set(string)'. Recupere as seguintes cadeias de caracteres de uma tabela de recursos: "Email:".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="F:\PROJETOBDDEDE\PROJETOBDDEDE\src\forms" File="frmAddAluno.Designer.cs" Line="290">O método 'frmAddAluno.InitializeComponent()' passa uma cadeia de caracteres literal como parâmetro "value" de uma chamada para 'Control.Text.set(string)'. Recupere as seguintes cadeias de caracteres de uma tabela de recursos: "Endereço:".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="F:\PROJETOBDDEDE\PROJETOBDDEDE\src\forms" File="frmAddAluno.Designer.cs" Line="266">O método 'frmAddAluno.InitializeComponent()' passa uma cadeia de caracteres literal como parâmetro "value" de uma chamada para 'Control.Text.set(string)'. Recupere as seguintes cadeias de caracteres de uma tabela de recursos: "Enviar".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="F:\PROJETOBDDEDE\PROJETOBDDEDE\src\forms" File="frmAddAluno.Designer.cs" Line="95">O método 'frmAddAluno.InitializeComponent()' passa uma cadeia de caracteres literal como parâmetro "value" de uma chamada para 'Control.Text.set(string)'. Recupere as seguintes cadeias de caracteres de uma tabela de recursos: "Nome:".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="F:\PROJETOBDDEDE\PROJETOBDDEDE\src\forms" File="frmAddAluno.Designer.cs" Line="69">O método 'frmAddAluno.InitializeComponent()' passa uma cadeia de caracteres literal como parâmetro "value" de uma chamada para 'Control.Text.set(string)'. Recupere as seguintes cadeias de caracteres de uma tabela de recursos: "RA:".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="F:\PROJETOBDDEDE\PROJETOBDDEDE\src\forms" File="frmAddAluno.Designer.cs" Line="82">O método 'frmAddAluno.InitializeComponent()' passa uma cadeia de caracteres literal como parâmetro "value" de uma chamada para 'Control.Text.set(string)'. Recupere as seguintes cadeias de caracteres de uma tabela de recursos: "RM:".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="F:\PROJETOBDDEDE\PROJETOBDDEDE\src\forms" File="frmAddAluno.Designer.cs" Line="160">O método 'frmAddAluno.InitializeComponent()' passa uma cadeia de caracteres literal como parâmetro "value" de uma chamada para 'Control.Text.set(string)'. Recupere as seguintes cadeias de caracteres de uma tabela de recursos: "Responsável Secundário:".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="F:\PROJETOBDDEDE\PROJETOBDDEDE\src\forms" File="frmAddAluno.Designer.cs" Line="134">O método 'frmAddAluno.InitializeComponent()' passa uma cadeia de caracteres literal como parâmetro "value" de uma chamada para 'Control.Text.set(string)'. Recupere as seguintes cadeias de caracteres de uma tabela de recursos: "Responsável:".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="F:\PROJETOBDDEDE\PROJETOBDDEDE\src\forms" File="frmAddAluno.Designer.cs" Line="173">O método 'frmAddAluno.InitializeComponent()' passa uma cadeia de caracteres literal como parâmetro "value" de uma chamada para 'Control.Text.set(string)'. Recupere as seguintes cadeias de caracteres de uma tabela de recursos: "Tel. do Responsável Secundário:".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="F:\PROJETOBDDEDE\PROJETOBDDEDE\src\forms" File="frmAddAluno.Designer.cs" Line="147">O método 'frmAddAluno.InitializeComponent()' passa uma cadeia de caracteres literal como parâmetro "value" de uma chamada para 'Control.Text.set(string)'. Recupere as seguintes cadeias de caracteres de uma tabela de recursos: "Tel. do Responsável:".</Issue>
             </Message>
-            <Message Id="System.Windows.Forms.MaskedTextBox.set_Mask(System.String)" TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="DependsOnFix">
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmAddAluno.Designer.cs" Line="242">Method 'frmAddAluno.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'MaskedTextBox.Mask.set(string)'. Retrieve the following string(s) from a resource table instead: "(99) 99999-9999".</Issue>
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmAddAluno.Designer.cs" Line="250">Method 'frmAddAluno.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'MaskedTextBox.Mask.set(string)'. Retrieve the following string(s) from a resource table instead: "(99) 99999-9999".</Issue>
-            </Message>
-            <Message Id="Classe" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="DependsOnFix">
-             <Issue Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmAddAluno.Designer.cs" Line="108">Correct the spelling of the unrecognized token 'Classe' in the literal '"Classe:"'.</Issue>
-            </Message>
-            <Message Id="Endereço" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="DependsOnFix">
-             <Issue Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmAddAluno.Designer.cs" Line="290">Correct the spelling of the unrecognized token 'Endereço' in the literal '"Endereço:"'.</Issue>
-            </Message>
-            <Message Id="Enviar" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="DependsOnFix">
-             <Issue Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmAddAluno.Designer.cs" Line="266">Correct the spelling of the unrecognized token 'Enviar' in the literal '"Enviar"'.</Issue>
-            </Message>
-            <Message Id="Nascimento" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="DependsOnFix">
-             <Issue Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmAddAluno.Designer.cs" Line="303">Correct the spelling of the unrecognized token 'Nascimento' in the literal '"Data de Nascimento:"'.</Issue>
-            </Message>
-            <Message Id="Responsável" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="DependsOnFix">
-             <Issue Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmAddAluno.Designer.cs" Line="160">Correct the spelling of the unrecognized token 'Responsável' in the literal '"Responsável Secundário:"'.</Issue>
-             <Issue Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmAddAluno.Designer.cs" Line="134">Correct the spelling of the unrecognized token 'Responsável' in the literal '"Responsável:"'.</Issue>
-             <Issue Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmAddAluno.Designer.cs" Line="173">Correct the spelling of the unrecognized token 'Responsável' in the literal '"Tel. do Responsável Secundário:"'.</Issue>
-             <Issue Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmAddAluno.Designer.cs" Line="147">Correct the spelling of the unrecognized token 'Responsável' in the literal '"Tel. do Responsável:"'.</Issue>
-            </Message>
-            <Message Id="Secundário" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="DependsOnFix">
-             <Issue Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmAddAluno.Designer.cs" Line="160">Correct the spelling of the unrecognized token 'Secundário' in the literal '"Responsável Secundário:"'.</Issue>
-             <Issue Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmAddAluno.Designer.cs" Line="173">Correct the spelling of the unrecognized token 'Secundário' in the literal '"Tel. do Responsável Secundário:"'.</Issue>
+            <Message Id="System.Windows.Forms.MaskedTextBox.set_Mask(System.String)" TypeName="Não passar literais como parâmetros localizados" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2021-11-18 17:53:11Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="F:\PROJETOBDDEDE\PROJETOBDDEDE\src\forms" File="frmAddAluno.Designer.cs" Line="242">O método 'frmAddAluno.InitializeComponent()' passa uma cadeia de caracteres literal como parâmetro "value" de uma chamada para 'MaskedTextBox.Mask.set(string)'. Recupere as seguintes cadeias de caracteres de uma tabela de recursos: "(99) 99999-9999".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="F:\PROJETOBDDEDE\PROJETOBDDEDE\src\forms" File="frmAddAluno.Designer.cs" Line="250">O método 'frmAddAluno.InitializeComponent()' passa uma cadeia de caracteres literal como parâmetro "value" de uma chamada para 'MaskedTextBox.Mask.set(string)'. Recupere as seguintes cadeias de caracteres de uma tabela de recursos: "(99) 99999-9999".</Issue>
             </Message>
            </Messages>
           </Member>
@@ -207,84 +143,44 @@
         </Type>
         <Type Name="frmAddProf" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message Id="frm" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="Breaking">
-           <Issue Name="Type" Certainty="85" Level="Error">Correct the casing of 'frm' in type name 'frmAddProf' by changing it to 'Frm'.</Issue>
-          </Message>
-          <Message Id="frm" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="Breaking">
-           <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'frm' in type name 'frmAddProf'.</Issue>
+          <Message Id="frm" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2021-11-18 17:53:11Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="85" Level="Error">Corrija o uso de maiúsculas e minúsculas de 'frm' no nome de tipo 'frmAddProf' alterando-o para 'Frm'.</Issue>
           </Message>
          </Messages>
          <Members>
           <Member Name="#btnEnviar_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message Id="System.Windows.Forms.MessageBox.Show(System.String,System.String,System.Windows.Forms.MessageBoxButtons)" TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="DependsOnFix">
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmAddProfessor.cs" Line="27">Method 'frmAddProf.btnEnviar_Click(object, EventArgs)' passes a literal string as parameter 'text' of a call to 'MessageBox.Show(string, string, MessageBoxButtons)'. Retrieve the following string(s) from a resource table instead: "Professor Cadastrado!".</Issue>
+            <Message TypeName="DoNotCatchGeneralExceptionTypes" Category="Microsoft.Design" CheckId="CA1031" Status="Active" Created="2021-11-18 17:53:11Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalError" Path="F:\PROJETOBDDEDE\PROJETOBDDEDE\src\forms" File="frmAddProfessor.cs" Line="30">Modifique 'frmAddProf.btnEnviar_Click(object, EventArgs)' para capturar uma exceção mais específica que 'Exception' ou relançar a exceção.</Issue>
             </Message>
-            <Message Id="System.Windows.Forms.MessageBox.Show(System.String,System.String,System.Windows.Forms.MessageBoxButtons,System.Windows.Forms.MessageBoxIcon)" TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="DependsOnFix">
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmAddProfessor.cs" Line="32">Method 'frmAddProf.btnEnviar_Click(object, EventArgs)' passes a literal string as parameter 'caption' of a call to 'MessageBox.Show(string, string, MessageBoxButtons, MessageBoxIcon)'. Retrieve the following string(s) from a resource table instead: "Erro".</Issue>
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmAddProfessor.cs" Line="32">Method 'frmAddProf.btnEnviar_Click(object, EventArgs)' passes a literal string as parameter 'text' of a call to 'MessageBox.Show(string, string, MessageBoxButtons, MessageBoxIcon)'. Retrieve the following string(s) from a resource table instead: "Não foi possível adicionar o professor! Erro:".</Issue>
+            <Message Id="System.Windows.Forms.MessageBox.Show(System.String,System.String,System.Windows.Forms.MessageBoxButtons)" TypeName="Não passar literais como parâmetros localizados" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2021-11-18 17:53:11Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="F:\PROJETOBDDEDE\PROJETOBDDEDE\src\forms" File="frmAddProfessor.cs" Line="27">O método 'frmAddProf.btnEnviar_Click(object, EventArgs)' passa uma cadeia de caracteres literal como parâmetro "text" de uma chamada para 'MessageBox.Show(string, string, MessageBoxButtons)'. Recupere as seguintes cadeias de caracteres de uma tabela de recursos: "Professor Cadastrado!".</Issue>
             </Message>
-            <Message TypeName="DoNotCatchGeneralExceptionTypes" Category="Microsoft.Design" CheckId="CA1031" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="NonBreaking">
-             <Issue Certainty="95" Level="CriticalError" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmAddProfessor.cs" Line="30">Modify 'frmAddProf.btnEnviar_Click(object, EventArgs)' to catch a more specific exception than 'Exception' or rethrow the exception.</Issue>
+            <Message Id="System.Windows.Forms.MessageBox.Show(System.String,System.String,System.Windows.Forms.MessageBoxButtons,System.Windows.Forms.MessageBoxIcon)" TypeName="Não passar literais como parâmetros localizados" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2021-11-18 17:53:11Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="F:\PROJETOBDDEDE\PROJETOBDDEDE\src\forms" File="frmAddProfessor.cs" Line="32">O método 'frmAddProf.btnEnviar_Click(object, EventArgs)' passa uma cadeia de caracteres literal como parâmetro "caption" de uma chamada para 'MessageBox.Show(string, string, MessageBoxButtons, MessageBoxIcon)'. Recupere as seguintes cadeias de caracteres de uma tabela de recursos: "Erro".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="F:\PROJETOBDDEDE\PROJETOBDDEDE\src\forms" File="frmAddProfessor.cs" Line="32">O método 'frmAddProf.btnEnviar_Click(object, EventArgs)' passa uma cadeia de caracteres literal como parâmetro "text" de uma chamada para 'MessageBox.Show(string, string, MessageBoxButtons, MessageBoxIcon)'. Recupere as seguintes cadeias de caracteres de uma tabela de recursos: "Não foi possível adicionar o professor! Erro:".</Issue>
             </Message>
-            <Message Id="Cadastrado" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="DependsOnFix">
-             <Issue Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmAddProfessor.cs" Line="27">Correct the spelling of the unrecognized token 'Cadastrado' in the literal '"Professor Cadastrado!"'.</Issue>
-            </Message>
-            <Message Id="Erro" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="DependsOnFix">
-             <Issue Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmAddProfessor.cs" Line="32">Correct the spelling of the unrecognized token 'Erro' in the literal '"Erro"'.</Issue>
-             <Issue Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmAddProfessor.cs" Line="32">Correct the spelling of the unrecognized token 'Erro' in the literal '"Não foi possível adicionar o professor! Erro:"'.</Issue>
-            </Message>
-            <Message Id="Não" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="DependsOnFix">
-             <Issue Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmAddProfessor.cs" Line="32">Correct the spelling of the unrecognized token 'Não' in the literal '"Não foi possível adicionar o professor! Erro:"'.</Issue>
-            </Message>
-            <Message Id="adicionar" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="DependsOnFix">
-             <Issue Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmAddProfessor.cs" Line="32">Correct the spelling of the unrecognized token 'adicionar' in the literal '"Não foi possível adicionar o professor! Erro:"'.</Issue>
-            </Message>
-            <Message Id="foi" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="DependsOnFix">
-             <Issue Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmAddProfessor.cs" Line="32">Correct the spelling of the unrecognized token 'foi' in the literal '"Não foi possível adicionar o professor! Erro:"'.</Issue>
-            </Message>
-            <Message Id="possível" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="DependsOnFix">
-             <Issue Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmAddProfessor.cs" Line="32">Correct the spelling of the unrecognized token 'possível' in the literal '"Não foi possível adicionar o professor! Erro:"'.</Issue>
-            </Message>
-            <Message TypeName="SpecifyMessageBoxOptions" Category="Microsoft.Globalization" CheckId="CA1300" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="NonBreaking">
-             <Issue Certainty="95" Level="Error" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmAddProfessor.cs" Line="27">Change 'frmAddProf.btnEnviar_Click(object, EventArgs)' to call the MessageBox.Show overload that specifies MessageBoxOptions, and make sure to set MessageBoxOptions.RightAlign and MessageBoxOptions.RtlReading if RightToLeft is set to RightToLeft.Yes on the parent control.</Issue>
-             <Issue Certainty="95" Level="Error" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmAddProfessor.cs" Line="32">Change 'frmAddProf.btnEnviar_Click(object, EventArgs)' to call the MessageBox.Show overload that specifies MessageBoxOptions, and make sure to set MessageBoxOptions.RightAlign and MessageBoxOptions.RtlReading if RightToLeft is set to RightToLeft.Yes on the parent control.</Issue>
+            <Message TypeName="SpecifyMessageBoxOptions" Category="Microsoft.Globalization" CheckId="CA1300" Status="Active" Created="2021-11-18 17:53:11Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="F:\PROJETOBDDEDE\PROJETOBDDEDE\src\forms" File="frmAddProfessor.cs" Line="27">Altere 'frmAddProf.btnEnviar_Click(object, EventArgs)' para chamar a sobrecarga MessageBox.Show que especifica MessageBoxOptions, e defina MessageBoxOptions.RightAlign e MessageBoxOptions.RtlReading se RightToLeft estiver definido para RightToLeft.Yes no controle pai.</Issue>
+             <Issue Certainty="95" Level="Error" Path="F:\PROJETOBDDEDE\PROJETOBDDEDE\src\forms" File="frmAddProfessor.cs" Line="32">Altere 'frmAddProf.btnEnviar_Click(object, EventArgs)' para chamar a sobrecarga MessageBox.Show que especifica MessageBoxOptions, e defina MessageBoxOptions.RightAlign e MessageBoxOptions.RtlReading se RightToLeft estiver definido para RightToLeft.Yes no controle pai.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#InitializeComponent()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message Id="System.Windows.Forms.Control.set_Text(System.String)" TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="DependsOnFix">
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmAddProfessor.Designer.cs" Line="110">Method 'frmAddProf.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "CPF:".</Issue>
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmAddProfessor.Designer.cs" Line="74">Method 'frmAddProf.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Classe responsável:".</Issue>
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmAddProfessor.Designer.cs" Line="225">Method 'frmAddProf.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Diário de um Banana".</Issue>
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmAddProfessor.Designer.cs" Line="122">Method 'frmAddProf.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Email:".</Issue>
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmAddProfessor.Designer.cs" Line="193">Method 'frmAddProf.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Enviar".</Issue>
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmAddProfessor.Designer.cs" Line="86">Method 'frmAddProf.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Matéria:".</Issue>
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmAddProfessor.Designer.cs" Line="62">Method 'frmAddProf.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Nome:".</Issue>
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmAddProfessor.Designer.cs" Line="98">Method 'frmAddProf.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Telefone:".</Issue>
+            <Message Id="System.Windows.Forms.Control.set_Text(System.String)" TypeName="Não passar literais como parâmetros localizados" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2021-11-18 17:53:11Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="F:\PROJETOBDDEDE\PROJETOBDDEDE\src\forms" File="frmAddProfessor.Designer.cs" Line="110">O método 'frmAddProf.InitializeComponent()' passa uma cadeia de caracteres literal como parâmetro "value" de uma chamada para 'Control.Text.set(string)'. Recupere as seguintes cadeias de caracteres de uma tabela de recursos: "CPF:".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="F:\PROJETOBDDEDE\PROJETOBDDEDE\src\forms" File="frmAddProfessor.Designer.cs" Line="74">O método 'frmAddProf.InitializeComponent()' passa uma cadeia de caracteres literal como parâmetro "value" de uma chamada para 'Control.Text.set(string)'. Recupere as seguintes cadeias de caracteres de uma tabela de recursos: "Classe responsável:".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="F:\PROJETOBDDEDE\PROJETOBDDEDE\src\forms" File="frmAddProfessor.Designer.cs" Line="225">O método 'frmAddProf.InitializeComponent()' passa uma cadeia de caracteres literal como parâmetro "value" de uma chamada para 'Control.Text.set(string)'. Recupere as seguintes cadeias de caracteres de uma tabela de recursos: "Diário de um Banana".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="F:\PROJETOBDDEDE\PROJETOBDDEDE\src\forms" File="frmAddProfessor.Designer.cs" Line="122">O método 'frmAddProf.InitializeComponent()' passa uma cadeia de caracteres literal como parâmetro "value" de uma chamada para 'Control.Text.set(string)'. Recupere as seguintes cadeias de caracteres de uma tabela de recursos: "Email:".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="F:\PROJETOBDDEDE\PROJETOBDDEDE\src\forms" File="frmAddProfessor.Designer.cs" Line="193">O método 'frmAddProf.InitializeComponent()' passa uma cadeia de caracteres literal como parâmetro "value" de uma chamada para 'Control.Text.set(string)'. Recupere as seguintes cadeias de caracteres de uma tabela de recursos: "Enviar".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="F:\PROJETOBDDEDE\PROJETOBDDEDE\src\forms" File="frmAddProfessor.Designer.cs" Line="86">O método 'frmAddProf.InitializeComponent()' passa uma cadeia de caracteres literal como parâmetro "value" de uma chamada para 'Control.Text.set(string)'. Recupere as seguintes cadeias de caracteres de uma tabela de recursos: "Matéria:".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="F:\PROJETOBDDEDE\PROJETOBDDEDE\src\forms" File="frmAddProfessor.Designer.cs" Line="62">O método 'frmAddProf.InitializeComponent()' passa uma cadeia de caracteres literal como parâmetro "value" de uma chamada para 'Control.Text.set(string)'. Recupere as seguintes cadeias de caracteres de uma tabela de recursos: "Nome:".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="F:\PROJETOBDDEDE\PROJETOBDDEDE\src\forms" File="frmAddProfessor.Designer.cs" Line="98">O método 'frmAddProf.InitializeComponent()' passa uma cadeia de caracteres literal como parâmetro "value" de uma chamada para 'Control.Text.set(string)'. Recupere as seguintes cadeias de caracteres de uma tabela de recursos: "Telefone:".</Issue>
             </Message>
-            <Message Id="System.Windows.Forms.MaskedTextBox.set_Mask(System.String)" TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="DependsOnFix">
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmAddProfessor.Designer.cs" Line="168">Method 'frmAddProf.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'MaskedTextBox.Mask.set(string)'. Retrieve the following string(s) from a resource table instead: "(99) 99999-9999".</Issue>
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmAddProfessor.Designer.cs" Line="177">Method 'frmAddProf.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'MaskedTextBox.Mask.set(string)'. Retrieve the following string(s) from a resource table instead: "999999999-99".</Issue>
-            </Message>
-            <Message Id="Classe" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="DependsOnFix">
-             <Issue Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmAddProfessor.Designer.cs" Line="74">Correct the spelling of the unrecognized token 'Classe' in the literal '"Classe responsável:"'.</Issue>
-            </Message>
-            <Message Id="Diário" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="DependsOnFix">
-             <Issue Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmAddProfessor.Designer.cs" Line="225">Correct the spelling of the unrecognized token 'Diário' in the literal '"Diário de um Banana"'.</Issue>
-            </Message>
-            <Message Id="Enviar" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="DependsOnFix">
-             <Issue Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmAddProfessor.Designer.cs" Line="193">Correct the spelling of the unrecognized token 'Enviar' in the literal '"Enviar"'.</Issue>
-            </Message>
-            <Message Id="Matéria" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="DependsOnFix">
-             <Issue Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmAddProfessor.Designer.cs" Line="86">Correct the spelling of the unrecognized token 'Matéria' in the literal '"Matéria:"'.</Issue>
-            </Message>
-            <Message Id="Telefone" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="DependsOnFix">
-             <Issue Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmAddProfessor.Designer.cs" Line="98">Correct the spelling of the unrecognized token 'Telefone' in the literal '"Telefone:"'.</Issue>
-            </Message>
-            <Message Id="responsável" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="DependsOnFix">
-             <Issue Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmAddProfessor.Designer.cs" Line="74">Correct the spelling of the unrecognized token 'responsável' in the literal '"Classe responsável:"'.</Issue>
+            <Message Id="System.Windows.Forms.MaskedTextBox.set_Mask(System.String)" TypeName="Não passar literais como parâmetros localizados" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2021-11-18 17:53:11Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="F:\PROJETOBDDEDE\PROJETOBDDEDE\src\forms" File="frmAddProfessor.Designer.cs" Line="168">O método 'frmAddProf.InitializeComponent()' passa uma cadeia de caracteres literal como parâmetro "value" de uma chamada para 'MaskedTextBox.Mask.set(string)'. Recupere as seguintes cadeias de caracteres de uma tabela de recursos: "(99) 99999-9999".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="F:\PROJETOBDDEDE\PROJETOBDDEDE\src\forms" File="frmAddProfessor.Designer.cs" Line="177">O método 'frmAddProf.InitializeComponent()' passa uma cadeia de caracteres literal como parâmetro "value" de uma chamada para 'MaskedTextBox.Mask.set(string)'. Recupere as seguintes cadeias de caracteres de uma tabela de recursos: "999999999-99".</Issue>
             </Message>
            </Messages>
           </Member>
@@ -292,79 +188,36 @@
         </Type>
         <Type Name="frmExcAluno" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message Id="frm" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="Breaking">
-           <Issue Name="Type" Certainty="85" Level="Error">Correct the casing of 'frm' in type name 'frmExcAluno' by changing it to 'Frm'.</Issue>
-          </Message>
-          <Message Id="Aluno" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="Breaking">
-           <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Aluno' in type name 'frmExcAluno'.</Issue>
-          </Message>
-          <Message Id="Exc" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="Breaking">
-           <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Exc' in type name 'frmExcAluno'.</Issue>
-          </Message>
-          <Message Id="frm" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="Breaking">
-           <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'frm' in type name 'frmExcAluno'.</Issue>
+          <Message Id="frm" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2021-11-18 17:53:11Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="85" Level="Error">Corrija o uso de maiúsculas e minúsculas de 'frm' no nome de tipo 'frmExcAluno' alterando-o para 'Frm'.</Issue>
           </Message>
          </Messages>
          <Members>
           <Member Name="#btn_EXC_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message Id="System.Windows.Forms.MessageBox.Show(System.String,System.String,System.Windows.Forms.MessageBoxButtons)" TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="DependsOnFix">
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmExcAluno.cs" Line="28">Method 'frmExcAluno.btn_EXC_Click(object, EventArgs)' passes a literal string as parameter 'text' of a call to 'MessageBox.Show(string, string, MessageBoxButtons)'. Retrieve the following string(s) from a resource table instead: "Tem certeza que deseja excluir o aluno?".</Issue>
+            <Message TypeName="DoNotCatchGeneralExceptionTypes" Category="Microsoft.Design" CheckId="CA1031" Status="Active" Created="2021-11-18 17:53:11Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalError" Path="F:\PROJETOBDDEDE\PROJETOBDDEDE\src\forms" File="frmExcAluno.cs" Line="31">Modifique 'frmExcAluno.btn_EXC_Click(object, EventArgs)' para capturar uma exceção mais específica que 'Exception' ou relançar a exceção.</Issue>
             </Message>
-            <Message Id="System.Windows.Forms.MessageBox.Show(System.String,System.String,System.Windows.Forms.MessageBoxButtons,System.Windows.Forms.MessageBoxIcon)" TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="DependsOnFix">
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmExcAluno.cs" Line="33">Method 'frmExcAluno.btn_EXC_Click(object, EventArgs)' passes a literal string as parameter 'caption' of a call to 'MessageBox.Show(string, string, MessageBoxButtons, MessageBoxIcon)'. Retrieve the following string(s) from a resource table instead: "Erro".</Issue>
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmExcAluno.cs" Line="33">Method 'frmExcAluno.btn_EXC_Click(object, EventArgs)' passes a literal string as parameter 'text' of a call to 'MessageBox.Show(string, string, MessageBoxButtons, MessageBoxIcon)'. Retrieve the following string(s) from a resource table instead: "Erro ao excluir aluno! Erro:".</Issue>
+            <Message Id="System.Windows.Forms.MessageBox.Show(System.String,System.String,System.Windows.Forms.MessageBoxButtons)" TypeName="Não passar literais como parâmetros localizados" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2021-11-18 17:53:11Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="F:\PROJETOBDDEDE\PROJETOBDDEDE\src\forms" File="frmExcAluno.cs" Line="28">O método 'frmExcAluno.btn_EXC_Click(object, EventArgs)' passa uma cadeia de caracteres literal como parâmetro "text" de uma chamada para 'MessageBox.Show(string, string, MessageBoxButtons)'. Recupere as seguintes cadeias de caracteres de uma tabela de recursos: "Tem certeza que deseja excluir o aluno?".</Issue>
             </Message>
-            <Message TypeName="DoNotCatchGeneralExceptionTypes" Category="Microsoft.Design" CheckId="CA1031" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="NonBreaking">
-             <Issue Certainty="95" Level="CriticalError" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmExcAluno.cs" Line="31">Modify 'frmExcAluno.btn_EXC_Click(object, EventArgs)' to catch a more specific exception than 'Exception' or rethrow the exception.</Issue>
+            <Message Id="System.Windows.Forms.MessageBox.Show(System.String,System.String,System.Windows.Forms.MessageBoxButtons,System.Windows.Forms.MessageBoxIcon)" TypeName="Não passar literais como parâmetros localizados" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2021-11-18 17:53:11Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="F:\PROJETOBDDEDE\PROJETOBDDEDE\src\forms" File="frmExcAluno.cs" Line="33">O método 'frmExcAluno.btn_EXC_Click(object, EventArgs)' passa uma cadeia de caracteres literal como parâmetro "caption" de uma chamada para 'MessageBox.Show(string, string, MessageBoxButtons, MessageBoxIcon)'. Recupere as seguintes cadeias de caracteres de uma tabela de recursos: "Erro".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="F:\PROJETOBDDEDE\PROJETOBDDEDE\src\forms" File="frmExcAluno.cs" Line="33">O método 'frmExcAluno.btn_EXC_Click(object, EventArgs)' passa uma cadeia de caracteres literal como parâmetro "text" de uma chamada para 'MessageBox.Show(string, string, MessageBoxButtons, MessageBoxIcon)'. Recupere as seguintes cadeias de caracteres de uma tabela de recursos: "Erro ao excluir aluno! Erro:".</Issue>
             </Message>
-            <Message Id="Erro" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="DependsOnFix">
-             <Issue Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmExcAluno.cs" Line="33">Correct the spelling of the unrecognized token 'Erro' in the literal '"Erro ao excluir aluno! Erro:"'.</Issue>
-             <Issue Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmExcAluno.cs" Line="33">Correct the spelling of the unrecognized token 'Erro' in the literal '"Erro ao excluir aluno! Erro:"'.</Issue>
-             <Issue Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmExcAluno.cs" Line="33">Correct the spelling of the unrecognized token 'Erro' in the literal '"Erro"'.</Issue>
-            </Message>
-            <Message Id="aluno" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="DependsOnFix">
-             <Issue Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmExcAluno.cs" Line="33">Correct the spelling of the unrecognized token 'aluno' in the literal '"Erro ao excluir aluno! Erro:"'.</Issue>
-             <Issue Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmExcAluno.cs" Line="28">Correct the spelling of the unrecognized token 'aluno' in the literal '"Tem certeza que deseja excluir o aluno?"'.</Issue>
-            </Message>
-            <Message Id="ao" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="DependsOnFix">
-             <Issue Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmExcAluno.cs" Line="33">Correct the spelling of the unrecognized token 'ao' in the literal '"Erro ao excluir aluno! Erro:"'.</Issue>
-            </Message>
-            <Message Id="certeza" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="DependsOnFix">
-             <Issue Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmExcAluno.cs" Line="28">Correct the spelling of the unrecognized token 'certeza' in the literal '"Tem certeza que deseja excluir o aluno?"'.</Issue>
-            </Message>
-            <Message Id="deseja" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="DependsOnFix">
-             <Issue Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmExcAluno.cs" Line="28">Correct the spelling of the unrecognized token 'deseja' in the literal '"Tem certeza que deseja excluir o aluno?"'.</Issue>
-            </Message>
-            <Message Id="excluir" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="DependsOnFix">
-             <Issue Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmExcAluno.cs" Line="33">Correct the spelling of the unrecognized token 'excluir' in the literal '"Erro ao excluir aluno! Erro:"'.</Issue>
-             <Issue Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmExcAluno.cs" Line="28">Correct the spelling of the unrecognized token 'excluir' in the literal '"Tem certeza que deseja excluir o aluno?"'.</Issue>
-            </Message>
-            <Message Id="que" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="DependsOnFix">
-             <Issue Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmExcAluno.cs" Line="28">Correct the spelling of the unrecognized token 'que' in the literal '"Tem certeza que deseja excluir o aluno?"'.</Issue>
-            </Message>
-            <Message TypeName="SpecifyMessageBoxOptions" Category="Microsoft.Globalization" CheckId="CA1300" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="NonBreaking">
-             <Issue Certainty="95" Level="Error" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmExcAluno.cs" Line="28">Change 'frmExcAluno.btn_EXC_Click(object, EventArgs)' to call the MessageBox.Show overload that specifies MessageBoxOptions, and make sure to set MessageBoxOptions.RightAlign and MessageBoxOptions.RtlReading if RightToLeft is set to RightToLeft.Yes on the parent control.</Issue>
-             <Issue Certainty="95" Level="Error" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmExcAluno.cs" Line="33">Change 'frmExcAluno.btn_EXC_Click(object, EventArgs)' to call the MessageBox.Show overload that specifies MessageBoxOptions, and make sure to set MessageBoxOptions.RightAlign and MessageBoxOptions.RtlReading if RightToLeft is set to RightToLeft.Yes on the parent control.</Issue>
+            <Message TypeName="SpecifyMessageBoxOptions" Category="Microsoft.Globalization" CheckId="CA1300" Status="Active" Created="2021-11-18 17:53:11Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="F:\PROJETOBDDEDE\PROJETOBDDEDE\src\forms" File="frmExcAluno.cs" Line="28">Altere 'frmExcAluno.btn_EXC_Click(object, EventArgs)' para chamar a sobrecarga MessageBox.Show que especifica MessageBoxOptions, e defina MessageBoxOptions.RightAlign e MessageBoxOptions.RtlReading se RightToLeft estiver definido para RightToLeft.Yes no controle pai.</Issue>
+             <Issue Certainty="95" Level="Error" Path="F:\PROJETOBDDEDE\PROJETOBDDEDE\src\forms" File="frmExcAluno.cs" Line="33">Altere 'frmExcAluno.btn_EXC_Click(object, EventArgs)' para chamar a sobrecarga MessageBox.Show que especifica MessageBoxOptions, e defina MessageBoxOptions.RightAlign e MessageBoxOptions.RtlReading se RightToLeft estiver definido para RightToLeft.Yes no controle pai.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#InitializeComponent()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message Id="System.Windows.Forms.Control.set_Text(System.String)" TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="DependsOnFix">
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmExcAluno.Designer.cs" Line="73">Method 'frmExcAluno.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Diário de um Banana".</Issue>
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmExcAluno.Designer.cs" Line="119">Method 'frmExcAluno.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Excluir".</Issue>
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmExcAluno.Designer.cs" Line="98">Method 'frmExcAluno.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "R.A.:".</Issue>
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmExcAluno.Designer.cs" Line="135">Method 'frmExcAluno.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "frmExcAluno".</Issue>
-            </Message>
-            <Message Id="Diário" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="DependsOnFix">
-             <Issue Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmExcAluno.Designer.cs" Line="73">Correct the spelling of the unrecognized token 'Diário' in the literal '"Diário de um Banana"'.</Issue>
-            </Message>
-            <Message Id="Excluir" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="DependsOnFix">
-             <Issue Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmExcAluno.Designer.cs" Line="119">Correct the spelling of the unrecognized token 'Excluir' in the literal '"Excluir"'.</Issue>
-            </Message>
-            <Message Id="frmExcAluno" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="DependsOnFix">
-             <Issue Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmExcAluno.Designer.cs" Line="135">Correct the spelling of the unrecognized token 'frmExcAluno' in the literal '"frmExcAluno"'.</Issue>
+            <Message Id="System.Windows.Forms.Control.set_Text(System.String)" TypeName="Não passar literais como parâmetros localizados" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2021-11-18 17:53:11Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="F:\PROJETOBDDEDE\PROJETOBDDEDE\src\forms" File="frmExcAluno.Designer.cs" Line="73">O método 'frmExcAluno.InitializeComponent()' passa uma cadeia de caracteres literal como parâmetro "value" de uma chamada para 'Control.Text.set(string)'. Recupere as seguintes cadeias de caracteres de uma tabela de recursos: "Diário de um Banana".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="F:\PROJETOBDDEDE\PROJETOBDDEDE\src\forms" File="frmExcAluno.Designer.cs" Line="119">O método 'frmExcAluno.InitializeComponent()' passa uma cadeia de caracteres literal como parâmetro "value" de uma chamada para 'Control.Text.set(string)'. Recupere as seguintes cadeias de caracteres de uma tabela de recursos: "Excluir".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="F:\PROJETOBDDEDE\PROJETOBDDEDE\src\forms" File="frmExcAluno.Designer.cs" Line="98">O método 'frmExcAluno.InitializeComponent()' passa uma cadeia de caracteres literal como parâmetro "value" de uma chamada para 'Control.Text.set(string)'. Recupere as seguintes cadeias de caracteres de uma tabela de recursos: "R.A.:".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="F:\PROJETOBDDEDE\PROJETOBDDEDE\src\forms" File="frmExcAluno.Designer.cs" Line="135">O método 'frmExcAluno.InitializeComponent()' passa uma cadeia de caracteres literal como parâmetro "value" de uma chamada para 'Control.Text.set(string)'. Recupere as seguintes cadeias de caracteres de uma tabela de recursos: "frmExcAluno".</Issue>
             </Message>
            </Messages>
           </Member>
@@ -372,180 +225,43 @@
         </Type>
         <Type Name="frmExcProf" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message Id="frm" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="Breaking">
-           <Issue Name="Type" Certainty="85" Level="Error">Correct the casing of 'frm' in type name 'frmExcProf' by changing it to 'Frm'.</Issue>
-          </Message>
-          <Message Id="Exc" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="Breaking">
-           <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Exc' in type name 'frmExcProf'.</Issue>
-          </Message>
-          <Message Id="frm" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="Breaking">
-           <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'frm' in type name 'frmExcProf'.</Issue>
+          <Message Id="frm" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2021-11-18 17:53:11Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="85" Level="Error">Corrija o uso de maiúsculas e minúsculas de 'frm' no nome de tipo 'frmExcProf' alterando-o para 'Frm'.</Issue>
           </Message>
          </Messages>
          <Members>
           <Member Name="#btn_EXC_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message Id="System.Windows.Forms.MessageBox.Show(System.String,System.String,System.Windows.Forms.MessageBoxButtons)" TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="DependsOnFix">
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmExcProf.cs" Line="29">Method 'frmExcProf.btn_EXC_Click(object, EventArgs)' passes a literal string as parameter 'text' of a call to 'MessageBox.Show(string, string, MessageBoxButtons)'. Retrieve the following string(s) from a resource table instead: "Tem certeza que deseja excluir o professor?".</Issue>
+            <Message TypeName="DoNotCatchGeneralExceptionTypes" Category="Microsoft.Design" CheckId="CA1031" Status="Active" Created="2021-11-18 17:53:11Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalError" Path="F:\PROJETOBDDEDE\PROJETOBDDEDE\src\forms" File="frmExcProf.cs" Line="32">Modifique 'frmExcProf.btn_EXC_Click(object, EventArgs)' para capturar uma exceção mais específica que 'Exception' ou relançar a exceção.</Issue>
             </Message>
-            <Message Id="System.Windows.Forms.MessageBox.Show(System.String,System.String,System.Windows.Forms.MessageBoxButtons,System.Windows.Forms.MessageBoxIcon)" TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="DependsOnFix">
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmExcProf.cs" Line="34">Method 'frmExcProf.btn_EXC_Click(object, EventArgs)' passes a literal string as parameter 'caption' of a call to 'MessageBox.Show(string, string, MessageBoxButtons, MessageBoxIcon)'. Retrieve the following string(s) from a resource table instead: "Erro".</Issue>
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmExcProf.cs" Line="34">Method 'frmExcProf.btn_EXC_Click(object, EventArgs)' passes a literal string as parameter 'text' of a call to 'MessageBox.Show(string, string, MessageBoxButtons, MessageBoxIcon)'. Retrieve the following string(s) from a resource table instead: "Erro ao excluir professor! Erro:".</Issue>
+            <Message Id="System.Windows.Forms.MessageBox.Show(System.String,System.String,System.Windows.Forms.MessageBoxButtons)" TypeName="Não passar literais como parâmetros localizados" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2021-11-18 17:53:11Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="F:\PROJETOBDDEDE\PROJETOBDDEDE\src\forms" File="frmExcProf.cs" Line="29">O método 'frmExcProf.btn_EXC_Click(object, EventArgs)' passa uma cadeia de caracteres literal como parâmetro "text" de uma chamada para 'MessageBox.Show(string, string, MessageBoxButtons)'. Recupere as seguintes cadeias de caracteres de uma tabela de recursos: "Tem certeza que deseja excluir o professor?".</Issue>
             </Message>
-            <Message TypeName="DoNotCatchGeneralExceptionTypes" Category="Microsoft.Design" CheckId="CA1031" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="NonBreaking">
-             <Issue Certainty="95" Level="CriticalError" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmExcProf.cs" Line="32">Modify 'frmExcProf.btn_EXC_Click(object, EventArgs)' to catch a more specific exception than 'Exception' or rethrow the exception.</Issue>
+            <Message Id="System.Windows.Forms.MessageBox.Show(System.String,System.String,System.Windows.Forms.MessageBoxButtons,System.Windows.Forms.MessageBoxIcon)" TypeName="Não passar literais como parâmetros localizados" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2021-11-18 17:53:11Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="F:\PROJETOBDDEDE\PROJETOBDDEDE\src\forms" File="frmExcProf.cs" Line="34">O método 'frmExcProf.btn_EXC_Click(object, EventArgs)' passa uma cadeia de caracteres literal como parâmetro "caption" de uma chamada para 'MessageBox.Show(string, string, MessageBoxButtons, MessageBoxIcon)'. Recupere as seguintes cadeias de caracteres de uma tabela de recursos: "Erro".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="F:\PROJETOBDDEDE\PROJETOBDDEDE\src\forms" File="frmExcProf.cs" Line="34">O método 'frmExcProf.btn_EXC_Click(object, EventArgs)' passa uma cadeia de caracteres literal como parâmetro "text" de uma chamada para 'MessageBox.Show(string, string, MessageBoxButtons, MessageBoxIcon)'. Recupere as seguintes cadeias de caracteres de uma tabela de recursos: "Erro ao excluir professor! Erro:".</Issue>
             </Message>
-            <Message Id="Erro" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="DependsOnFix">
-             <Issue Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmExcProf.cs" Line="34">Correct the spelling of the unrecognized token 'Erro' in the literal '"Erro ao excluir professor! Erro:"'.</Issue>
-             <Issue Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmExcProf.cs" Line="34">Correct the spelling of the unrecognized token 'Erro' in the literal '"Erro ao excluir professor! Erro:"'.</Issue>
-             <Issue Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmExcProf.cs" Line="34">Correct the spelling of the unrecognized token 'Erro' in the literal '"Erro"'.</Issue>
-            </Message>
-            <Message Id="ao" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="DependsOnFix">
-             <Issue Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmExcProf.cs" Line="34">Correct the spelling of the unrecognized token 'ao' in the literal '"Erro ao excluir professor! Erro:"'.</Issue>
-            </Message>
-            <Message Id="certeza" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="DependsOnFix">
-             <Issue Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmExcProf.cs" Line="29">Correct the spelling of the unrecognized token 'certeza' in the literal '"Tem certeza que deseja excluir o professor?"'.</Issue>
-            </Message>
-            <Message Id="deseja" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="DependsOnFix">
-             <Issue Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmExcProf.cs" Line="29">Correct the spelling of the unrecognized token 'deseja' in the literal '"Tem certeza que deseja excluir o professor?"'.</Issue>
-            </Message>
-            <Message Id="excluir" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="DependsOnFix">
-             <Issue Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmExcProf.cs" Line="34">Correct the spelling of the unrecognized token 'excluir' in the literal '"Erro ao excluir professor! Erro:"'.</Issue>
-             <Issue Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmExcProf.cs" Line="29">Correct the spelling of the unrecognized token 'excluir' in the literal '"Tem certeza que deseja excluir o professor?"'.</Issue>
-            </Message>
-            <Message Id="que" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="DependsOnFix">
-             <Issue Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmExcProf.cs" Line="29">Correct the spelling of the unrecognized token 'que' in the literal '"Tem certeza que deseja excluir o professor?"'.</Issue>
-            </Message>
-            <Message TypeName="SpecifyMessageBoxOptions" Category="Microsoft.Globalization" CheckId="CA1300" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="NonBreaking">
-             <Issue Certainty="95" Level="Error" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmExcProf.cs" Line="29">Change 'frmExcProf.btn_EXC_Click(object, EventArgs)' to call the MessageBox.Show overload that specifies MessageBoxOptions, and make sure to set MessageBoxOptions.RightAlign and MessageBoxOptions.RtlReading if RightToLeft is set to RightToLeft.Yes on the parent control.</Issue>
-             <Issue Certainty="95" Level="Error" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmExcProf.cs" Line="34">Change 'frmExcProf.btn_EXC_Click(object, EventArgs)' to call the MessageBox.Show overload that specifies MessageBoxOptions, and make sure to set MessageBoxOptions.RightAlign and MessageBoxOptions.RtlReading if RightToLeft is set to RightToLeft.Yes on the parent control.</Issue>
+            <Message TypeName="SpecifyMessageBoxOptions" Category="Microsoft.Globalization" CheckId="CA1300" Status="Active" Created="2021-11-18 17:53:11Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="F:\PROJETOBDDEDE\PROJETOBDDEDE\src\forms" File="frmExcProf.cs" Line="29">Altere 'frmExcProf.btn_EXC_Click(object, EventArgs)' para chamar a sobrecarga MessageBox.Show que especifica MessageBoxOptions, e defina MessageBoxOptions.RightAlign e MessageBoxOptions.RtlReading se RightToLeft estiver definido para RightToLeft.Yes no controle pai.</Issue>
+             <Issue Certainty="95" Level="Error" Path="F:\PROJETOBDDEDE\PROJETOBDDEDE\src\forms" File="frmExcProf.cs" Line="34">Altere 'frmExcProf.btn_EXC_Click(object, EventArgs)' para chamar a sobrecarga MessageBox.Show que especifica MessageBoxOptions, e defina MessageBoxOptions.RightAlign e MessageBoxOptions.RtlReading se RightToLeft estiver definido para RightToLeft.Yes no controle pai.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#frm1" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message TypeName="AvoidUnusedPrivateFields" Category="Microsoft.Performance" CheckId="CA1823" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="NonBreaking">
-             <Issue Certainty="75" Level="Warning">It appears that field 'frmExcProf.frm1' is never used or is only ever assigned to. Use this field or remove it.</Issue>
+            <Message TypeName="AvoidUnusedPrivateFields" Category="Microsoft.Performance" CheckId="CA1823" Status="Active" Created="2021-11-18 17:53:11Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning">Aparentemente, o campo 'frmExcProf.frm1' nunca é usado ou só é objeto de atribuição. Use esse campo ou remova-o.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#InitializeComponent()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message Id="System.Windows.Forms.Control.set_Text(System.String)" TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="DependsOnFix">
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmExcProf.Designer.cs" Line="119">Method 'frmExcProf.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "CPF:".</Issue>
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmExcProf.Designer.cs" Line="71">Method 'frmExcProf.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Diário de um Banana".</Issue>
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmExcProf.Designer.cs" Line="98">Method 'frmExcProf.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "Excluir".</Issue>
-             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmExcProf.Designer.cs" Line="133">Method 'frmExcProf.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "frmExcProf".</Issue>
-            </Message>
-            <Message Id="Diário" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="DependsOnFix">
-             <Issue Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmExcProf.Designer.cs" Line="71">Correct the spelling of the unrecognized token 'Diário' in the literal '"Diário de um Banana"'.</Issue>
-            </Message>
-            <Message Id="Excluir" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="DependsOnFix">
-             <Issue Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmExcProf.Designer.cs" Line="98">Correct the spelling of the unrecognized token 'Excluir' in the literal '"Excluir"'.</Issue>
-            </Message>
-            <Message Id="frmExcProf" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="DependsOnFix">
-             <Issue Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="frmExcProf.Designer.cs" Line="133">Correct the spelling of the unrecognized token 'frmExcProf' in the literal '"frmExcProf"'.</Issue>
-            </Message>
-           </Messages>
-          </Member>
-         </Members>
-        </Type>
-        <Type Name="MovimentacaoFormularios" Kind="Class" Accessibility="Public" ExternallyVisible="True">
-         <Messages>
-          <Message Id="Formularios" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="Breaking">
-           <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Formularios' in type name 'MovimentacaoFormularios'.</Issue>
-          </Message>
-          <Message Id="Movimentacao" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="Breaking">
-           <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Movimentacao' in type name 'MovimentacaoFormularios'.</Issue>
-          </Message>
-         </Messages>
-         <Members>
-          <Member Name="#adicionaraluno()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
-           <Messages>
-            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="DependsOnFix">
-             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="MovimentacaoFormularios.cs" Line="12">In method 'MovimentacaoFormularios.adicionaraluno()', call System.IDisposable.Dispose on object 'frmAddAluno' before all references to it are out of scope.</Issue>
-            </Message>
-            <Message Id="adicionaraluno" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="Breaking">
-             <Issue Name="Member" Certainty="85" Level="Error" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="MovimentacaoFormularios.cs" Line="12">Correct the casing of 'adicionaraluno' in member name 'MovimentacaoFormularios.adicionaraluno()' by changing it to 'Adicionaraluno'.</Issue>
-            </Message>
-            <Message Id="adicionaraluno" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="Breaking">
-             <Issue Name="Member" Certainty="75" Level="CriticalWarning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="MovimentacaoFormularios.cs" Line="12">Correct the spelling of 'adicionaraluno' in member name 'MovimentacaoFormularios.adicionaraluno()' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
-            </Message>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="DependsOnFix">
-             <Issue Certainty="95" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="MovimentacaoFormularios.cs" Line="12">The 'this' parameter (or 'Me' in Visual Basic) of 'MovimentacaoFormularios.adicionaraluno()' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
-            </Message>
-            <Message Id="frmAddAluno" TypeName="RemoveUnusedLocals" Category="Microsoft.Performance" CheckId="CA1804" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="NonBreaking">
-             <Issue Certainty="95" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="MovimentacaoFormularios.cs" Line="12">'MovimentacaoFormularios.adicionaraluno()' declares a variable, 'frmAddAluno', of type 'frmAddAluno', which is never used or is only assigned to. Use this variable or remove it.</Issue>
-            </Message>
-           </Messages>
-          </Member>
-          <Member Name="#adicionarProf()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
-           <Messages>
-            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="DependsOnFix">
-             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="MovimentacaoFormularios.cs" Line="13">In method 'MovimentacaoFormularios.adicionarProf()', call System.IDisposable.Dispose on object 'frmAddProf' before all references to it are out of scope.</Issue>
-            </Message>
-            <Message Id="adicionar" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="Breaking">
-             <Issue Name="Member" Certainty="85" Level="Error" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="MovimentacaoFormularios.cs" Line="13">Correct the casing of 'adicionar' in member name 'MovimentacaoFormularios.adicionarProf()' by changing it to 'Adicionar'.</Issue>
-            </Message>
-            <Message Id="adicionar" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="Breaking">
-             <Issue Name="Member" Certainty="75" Level="CriticalWarning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="MovimentacaoFormularios.cs" Line="13">Correct the spelling of 'adicionar' in member name 'MovimentacaoFormularios.adicionarProf()' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
-            </Message>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="DependsOnFix">
-             <Issue Certainty="95" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="MovimentacaoFormularios.cs" Line="13">The 'this' parameter (or 'Me' in Visual Basic) of 'MovimentacaoFormularios.adicionarProf()' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
-            </Message>
-            <Message Id="frmAddProf" TypeName="RemoveUnusedLocals" Category="Microsoft.Performance" CheckId="CA1804" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="NonBreaking">
-             <Issue Certainty="95" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="MovimentacaoFormularios.cs" Line="13">'MovimentacaoFormularios.adicionarProf()' declares a variable, 'frmAddProf', of type 'frmAddProf', which is never used or is only assigned to. Use this variable or remove it.</Issue>
-            </Message>
-           </Messages>
-          </Member>
-          <Member Name="#cuzinho" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
-           <Messages>
-            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="Breaking">
-             <Issue Certainty="90" Level="Error">Because field 'MovimentacaoFormularios.cuzinho' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
-            </Message>
-            <Message Id="cuzinho" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="Breaking">
-             <Issue Name="Member" Certainty="75" Level="CriticalWarning">Correct the spelling of 'cuzinho' in member name 'MovimentacaoFormularios.cuzinho' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
-            </Message>
-           </Messages>
-          </Member>
-          <Member Name="#excluirAluno()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
-           <Messages>
-            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="DependsOnFix">
-             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="MovimentacaoFormularios.cs" Line="14">In method 'MovimentacaoFormularios.excluirAluno()', call System.IDisposable.Dispose on object 'frmExcAluno' before all references to it are out of scope.</Issue>
-            </Message>
-            <Message Id="excluir" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="Breaking">
-             <Issue Name="Member" Certainty="85" Level="Error" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="MovimentacaoFormularios.cs" Line="14">Correct the casing of 'excluir' in member name 'MovimentacaoFormularios.excluirAluno()' by changing it to 'Excluir'.</Issue>
-            </Message>
-            <Message Id="Aluno" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="Breaking">
-             <Issue Name="Member" Certainty="75" Level="CriticalWarning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="MovimentacaoFormularios.cs" Line="14">Correct the spelling of 'Aluno' in member name 'MovimentacaoFormularios.excluirAluno()' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
-            </Message>
-            <Message Id="excluir" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="Breaking">
-             <Issue Name="Member" Certainty="75" Level="CriticalWarning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="MovimentacaoFormularios.cs" Line="14">Correct the spelling of 'excluir' in member name 'MovimentacaoFormularios.excluirAluno()' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
-            </Message>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="DependsOnFix">
-             <Issue Certainty="95" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="MovimentacaoFormularios.cs" Line="14">The 'this' parameter (or 'Me' in Visual Basic) of 'MovimentacaoFormularios.excluirAluno()' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
-            </Message>
-            <Message Id="frmExcAluno" TypeName="RemoveUnusedLocals" Category="Microsoft.Performance" CheckId="CA1804" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="NonBreaking">
-             <Issue Certainty="95" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="MovimentacaoFormularios.cs" Line="14">'MovimentacaoFormularios.excluirAluno()' declares a variable, 'frmExcAluno', of type 'frmExcAluno', which is never used or is only assigned to. Use this variable or remove it.</Issue>
-            </Message>
-           </Messages>
-          </Member>
-          <Member Name="#excluirProf()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
-           <Messages>
-            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="DependsOnFix">
-             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="MovimentacaoFormularios.cs" Line="15">In method 'MovimentacaoFormularios.excluirProf()', call System.IDisposable.Dispose on object 'frmExcProf' before all references to it are out of scope.</Issue>
-            </Message>
-            <Message Id="excluir" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="Breaking">
-             <Issue Name="Member" Certainty="85" Level="Error" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="MovimentacaoFormularios.cs" Line="15">Correct the casing of 'excluir' in member name 'MovimentacaoFormularios.excluirProf()' by changing it to 'Excluir'.</Issue>
-            </Message>
-            <Message Id="excluir" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="Breaking">
-             <Issue Name="Member" Certainty="75" Level="CriticalWarning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="MovimentacaoFormularios.cs" Line="15">Correct the spelling of 'excluir' in member name 'MovimentacaoFormularios.excluirProf()' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
-            </Message>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="DependsOnFix">
-             <Issue Certainty="95" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="MovimentacaoFormularios.cs" Line="15">The 'this' parameter (or 'Me' in Visual Basic) of 'MovimentacaoFormularios.excluirProf()' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
-            </Message>
-            <Message Id="frmExcProf" TypeName="RemoveUnusedLocals" Category="Microsoft.Performance" CheckId="CA1804" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="NonBreaking">
-             <Issue Certainty="95" Level="Warning" Path="E:\PROJETOBDDEDE\PROJETOBDDEDE" File="MovimentacaoFormularios.cs" Line="15">'MovimentacaoFormularios.excluirProf()' declares a variable, 'frmExcProf', of type 'frmExcProf', which is never used or is only assigned to. Use this variable or remove it.</Issue>
+            <Message Id="System.Windows.Forms.Control.set_Text(System.String)" TypeName="Não passar literais como parâmetros localizados" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2021-11-18 17:53:11Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="F:\PROJETOBDDEDE\PROJETOBDDEDE\src\forms" File="frmExcProf.Designer.cs" Line="119">O método 'frmExcProf.InitializeComponent()' passa uma cadeia de caracteres literal como parâmetro "value" de uma chamada para 'Control.Text.set(string)'. Recupere as seguintes cadeias de caracteres de uma tabela de recursos: "CPF:".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="F:\PROJETOBDDEDE\PROJETOBDDEDE\src\forms" File="frmExcProf.Designer.cs" Line="71">O método 'frmExcProf.InitializeComponent()' passa uma cadeia de caracteres literal como parâmetro "value" de uma chamada para 'Control.Text.set(string)'. Recupere as seguintes cadeias de caracteres de uma tabela de recursos: "Diário de um Banana".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="F:\PROJETOBDDEDE\PROJETOBDDEDE\src\forms" File="frmExcProf.Designer.cs" Line="98">O método 'frmExcProf.InitializeComponent()' passa uma cadeia de caracteres literal como parâmetro "value" de uma chamada para 'Control.Text.set(string)'. Recupere as seguintes cadeias de caracteres de uma tabela de recursos: "Excluir".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="F:\PROJETOBDDEDE\PROJETOBDDEDE\src\forms" File="frmExcProf.Designer.cs" Line="133">O método 'frmExcProf.InitializeComponent()' passa uma cadeia de caracteres literal como parâmetro "value" de uma chamada para 'Control.Text.set(string)'. Recupere as seguintes cadeias de caracteres de uma tabela de recursos: "frmExcProf".</Issue>
             </Message>
            </Messages>
           </Member>
@@ -553,55 +269,39 @@
         </Type>
         <Type Name="SchoolManagerDataSet" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="NonBreaking">
-           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'SchoolManagerDataSet'.</Issue>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2021-11-18 17:53:11Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Adicione uma implementação de GetObjectData ao tipo 'SchoolManagerDataSet'.</Issue>
           </Message>
          </Messages>
         </Type>
         <Type Name="SchoolManagerDataSet+AlunoDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message Id="Aluno" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="Breaking">
-           <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Aluno' in type name 'SchoolManagerDataSet.AlunoDataTable'.</Issue>
-          </Message>
-          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="NonBreaking">
-           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'SchoolManagerDataSet.AlunoDataTable'.</Issue>
-          </Message>
-         </Messages>
-        </Type>
-        <Type Name="SchoolManagerDataSet+AlunoRow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
-         <Messages>
-          <Message Id="Aluno" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="Breaking">
-           <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Aluno' in type name 'SchoolManagerDataSet.AlunoRow'.</Issue>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2021-11-18 17:53:11Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Adicione uma implementação de GetObjectData ao tipo 'SchoolManagerDataSet.AlunoDataTable'.</Issue>
           </Message>
          </Messages>
         </Type>
         <Type Name="SchoolManagerDataSet+ProfessorDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="NonBreaking">
-           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'SchoolManagerDataSet.ProfessorDataTable'.</Issue>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2021-11-18 17:53:11Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Adicione uma implementação de GetObjectData ao tipo 'SchoolManagerDataSet.ProfessorDataTable'.</Issue>
           </Message>
          </Messages>
         </Type>
         <Type Name="SchoolManagerDataSet+responsavelDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message Id="responsavel" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="Breaking">
-           <Issue Name="Type" Certainty="85" Level="Error">Correct the casing of 'responsavel' in type name 'SchoolManagerDataSet.responsavelDataTable' by changing it to 'Responsavel'.</Issue>
+          <Message Id="responsavel" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2021-11-18 17:53:11Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="85" Level="Error">Corrija o uso de maiúsculas e minúsculas de 'responsavel' no nome de tipo 'SchoolManagerDataSet.responsavelDataTable' alterando-o para 'Responsavel'.</Issue>
           </Message>
-          <Message Id="responsavel" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="Breaking">
-           <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'responsavel' in type name 'SchoolManagerDataSet.responsavelDataTable'.</Issue>
-          </Message>
-          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="NonBreaking">
-           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'SchoolManagerDataSet.responsavelDataTable'.</Issue>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2021-11-18 17:53:11Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Adicione uma implementação de GetObjectData ao tipo 'SchoolManagerDataSet.responsavelDataTable'.</Issue>
           </Message>
          </Messages>
         </Type>
         <Type Name="SchoolManagerDataSet+responsavelRow" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message Id="responsavel" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="Breaking">
-           <Issue Name="Type" Certainty="85" Level="Error">Correct the casing of 'responsavel' in type name 'SchoolManagerDataSet.responsavelRow' by changing it to 'Responsavel'.</Issue>
-          </Message>
-          <Message Id="responsavel" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="Breaking">
-           <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'responsavel' in type name 'SchoolManagerDataSet.responsavelRow'.</Issue>
+          <Message Id="responsavel" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2021-11-18 17:53:11Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="85" Level="Error">Corrija o uso de maiúsculas e minúsculas de 'responsavel' no nome de tipo 'SchoolManagerDataSet.responsavelRow' alterando-o para 'Responsavel'.</Issue>
           </Message>
          </Messages>
         </Type>
@@ -609,22 +309,32 @@
       </Namespace>
       <Namespace Name="PROJETOBDDEDE.SchoolManagerDataSetTableAdapters">
        <Types>
-        <Type Name="AlunoTableAdapter" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+        <Type Name="responsavelTableAdapter" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message Id="Aluno" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="Breaking">
-           <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Aluno' in type name 'AlunoTableAdapter'.</Issue>
+          <Message Id="responsavel" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2021-11-18 17:53:11Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="85" Level="Error">Corrija o uso de maiúsculas e minúsculas de 'responsavel' no nome de tipo 'responsavelTableAdapter' alterando-o para 'Responsavel'.</Issue>
           </Message>
          </Messages>
         </Type>
-        <Type Name="responsavelTableAdapter" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+       </Types>
+      </Namespace>
+      <Namespace Name="PROJETOBDDEDE.src.forms">
+       <Types>
+        <Type Name="frmViewAluno" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message Id="responsavel" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="Breaking">
-           <Issue Name="Type" Certainty="85" Level="Error">Correct the casing of 'responsavel' in type name 'responsavelTableAdapter' by changing it to 'Responsavel'.</Issue>
-          </Message>
-          <Message Id="responsavel" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2021-11-18 14:42:31Z" FixCategory="Breaking">
-           <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'responsavel' in type name 'responsavelTableAdapter'.</Issue>
+          <Message Id="frm" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2021-11-18 17:53:11Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="85" Level="Error">Corrija o uso de maiúsculas e minúsculas de 'frm' no nome de tipo 'frmViewAluno' alterando-o para 'Frm'.</Issue>
           </Message>
          </Messages>
+         <Members>
+          <Member Name="#InitializeComponent()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.Windows.Forms.Control.set_Text(System.String)" TypeName="Não passar literais como parâmetros localizados" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2021-11-18 17:53:11Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="F:\PROJETOBDDEDE\PROJETOBDDEDE\src\forms" File="frmViewAluno.Designer.cs" Line="51">O método 'frmViewAluno.InitializeComponent()' passa uma cadeia de caracteres literal como parâmetro "value" de uma chamada para 'Control.Text.set(string)'. Recupere as seguintes cadeias de caracteres de uma tabela de recursos: "frmViewAluno".</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
         </Type>
        </Types>
       </Namespace>
@@ -635,182 +345,140 @@
  </Targets>
  <Rules>
   <Rule TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210">
-   <Name>Assemblies should have valid strong names</Name>
-   <Description>Either the assembly has no strong name, an invalid one, or the strong name is valid only because of the computer configuration. The assembly should not be deployed in this state. The most common causes of this are: 1) The assembly's contents were modified after it was signed. 2) The signing process failed. 3) The assembly was delay-signed. 4) A registry key existed that allowed the check to pass (where it would not have otherwise).</Description>
-   <Resolution Name="NoStrongName">Sign {0} with a strong name key.</Resolution>
+   <Name>Assemblies devem ter nomes fortes válidos</Name>
+   <Description>Ou o assembly não possui um nome forte, um nome inválido, ou o nome forte é válido somente devido à configuração do computador. O assembly não deve ser implantado nesse estado. As causas mais comuns para isso são: 1) O conteúdo do assembly foi modificado depois de ser assinado. 2) O processo de assinatura falhou. 3) O assembly teve a assinatura atrasada. 4) Havia uma chave de registro que permitiu a aprovação na verificação (onde não seria aprovada de outra forma).</Description>
+   <Resolution Name="NoStrongName">Assine {0} com uma chave de nome forte.</Resolution>
    <Owner />
    <Url>http://msdn.microsoft.com/library/ms182127.aspx</Url>
    <Email>[none]</Email>
    <MessageLevel Certainty="95">CriticalError</MessageLevel>
-   <File Name="designrules.dll" Version="14.0.0.0" />
+   <File Name="designrules.dll" Version="16.0.0.0" />
   </Rule>
   <Rule TypeName="AvoidUnusedPrivateFields" Category="Microsoft.Performance" CheckId="CA1823">
-   <Name>Avoid unused private fields</Name>
-   <Description>Private fields were detected that do not appear to be accessed within the assembly. If this violation fires in error, please send a problem report to the Visual Studio Code Analysis team.</Description>
-   <Resolution Name="Default">It appears that field {0} is never used or is only ever assigned to. Use this field or remove it.</Resolution>
+   <Name>Evite campos particulares não utilizados</Name>
+   <Description>Foram detectados campos particulares que não parecem ser acessados dentro do assembly. Se essa violação for disparada por engano, envie um relatório do problema para a equipe do Visual Studio Code Analysis.</Description>
+   <Resolution Name="Default">Aparentemente, o campo {0} nunca é usado ou só é objeto de atribuição. Use esse campo ou remova-o.</Resolution>
    <Owner />
    <Url>http://msdn.microsoft.com/library/ms245042.aspx</Url>
    <Email>[none]</Email>
    <MessageLevel Certainty="75">Warning</MessageLevel>
-   <File Name="performancerules.dll" Version="14.0.0.0" />
+   <File Name="performancerules.dll" Version="16.0.0.0" />
   </Rule>
-  <Rule TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000">
-   <Name>Dispose objects before losing scope</Name>
-   <Description>If a disposable object is not explicitly disposed before all references to it are out of scope, the object will be disposed at some indeterminate time when the garbage collector runs the finalizer of the object. Because an exceptional event might occur that will prevent the finalizer of the object from running, the object should be explicitly disposed instead.</Description>
-   <Resolution Name="NonExceptionEdge">In method {0}, call System.IDisposable.Dispose on object {1} before all references to it are out of scope.</Resolution>
+  <Rule TypeName="Descartar objetos antes de perder o escopo" Category="Microsoft.Reliability" CheckId="CA2000">
+   <Name>Descartar objetos antes de perder o escopo</Name>
+   <Description>Se um objeto descartável não for explicitamente descartado antes de todas as referências a ele ficarem fora do escopo, o objeto será descartado em um momento indeterminado quando o coletor de lixo executar o finalizador do objeto. Como pode ocorrer um evento excepcional que impedirá a execução do finalizador do objeto, o objeto deverá ser explicitamente descartado.</Description>
+   <Resolution Name="NonExceptionEdge">No método {0}, chame System.IDisposable.Dispose no objeto {1} antes que todas as referências a ele fiquem fora do escopo.</Resolution>
    <Owner>RuleOwner</Owner>
    <Url>http://msdn.microsoft.com/library/ms182289.aspx</Url>
    <Email />
    <MessageLevel Certainty="75">Warning</MessageLevel>
-   <File Name="dataflowrules.dll" Version="14.0.0.0" />
-  </Rule>
-  <Rule TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303">
-   <Name>Do not pass literals as localized parameters</Name>
-   <Description>Literal strings that are embedded in source code are difficult to localize. Avoid passing literal strings as arguments in circumstances where a localized string is generally expected.</Description>
-   <Resolution Name="KnownValue">Method {0} passes a literal string as parameter '{1}' of a call to {2}. Retrieve the following string(s) from a resource table instead: {3}.</Resolution>
-   <Owner>RuleOwner</Owner>
-   <Url>http://msdn.microsoft.com/library/ms182187.aspx</Url>
-   <Email />
-   <MessageLevel Certainty="75">Warning</MessageLevel>
-   <File Name="dataflowrules.dll" Version="14.0.0.0" />
+   <File Name="dataflowrules.dll" Version="16.0.0.0" />
   </Rule>
   <Rule TypeName="DoNotCatchGeneralExceptionTypes" Category="Microsoft.Design" CheckId="CA1031">
-   <Name>Do not catch general exception types</Name>
-   <Description>You should not catch Exception or SystemException. Catching generic exception types can hide run-time problems from the library user, and can complicate debugging. You should catch only those exceptions that you can handle gracefully.</Description>
-   <Resolution Name="Default">Modify {0} to catch a more specific exception than {1} or rethrow the exception.</Resolution>
+   <Name>Não capturar tipos de exceção geral</Name>
+   <Description>Você não deve capturar Exception nem SystemException. Capturar tipos de exceção genéricos pode ocultar problemas de tempo de execução do usuário da biblioteca e complicar a depuração. Você deve capturar somente as exceções com as quais pode lidar sem problemas.</Description>
+   <Resolution Name="Default">Modifique {0} para capturar uma exceção mais específica que {1} ou relançar a exceção.</Resolution>
    <Owner />
    <Url>http://msdn.microsoft.com/library/ms182137.aspx</Url>
    <Email>[none]</Email>
    <MessageLevel Certainty="95">CriticalError</MessageLevel>
-   <File Name="designrules.dll" Version="14.0.0.0" />
-  </Rule>
-  <Rule TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051">
-   <Name>Do not declare visible instance fields</Name>
-   <Description>Instance fields that are visible outside of the type that declares them, limit your ability to change the implementation details for those data items. Use properties instead. They do not compromise usability or performance and they do provide flexibility in that they conceal the implementation details of the underlying data.</Description>
-   <Resolution Name="Default">Because field {0} is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Resolution>
-   <Owner />
-   <Url>http://msdn.microsoft.com/library/ms182141.aspx</Url>
-   <Email>[none]</Email>
-   <MessageLevel Certainty="90">Error</MessageLevel>
-   <File Name="designrules.dll" Version="14.0.0.0" />
+   <File Name="designrules.dll" Version="16.0.0.0" />
   </Rule>
   <Rule TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709">
-   <Name>Identifiers should be cased correctly</Name>
-   <Description>Type, namespace, and member identifiers are Pascal-cased. Parameter identifiers are camel-cased. Two letter acronyms within these identifiers should be upper-cased, for example, use System.IO instead of System.Io. Acronyms of three or more letters should be Pascal-cased, for example, use System.Xml instead of System.XML. The pascal-casing convention capitalizes the first letter of each word, as in BackColor. The camel-casing convention formats the first letter of the first word in lowercase and capitalizes the first letter of all subsequent words, as in backgroundColor. Although it may be common practice for some two letter acronyms to not be fully capitalized, violations of this rule should not be excluded for this reason. For example, 'DbConnection', is common but incorrect; use DBConnection. A violation of this rule might be required for compatibility with existing, non-managed symbol schemes. In general, however, these symbols should not be visible outside the assembly that uses them.</Description>
-   <Resolution Name="Assembly">Correct the casing of '{0}' in assembly name {1} by changing it to '{2}'.</Resolution>
-   <Resolution Name="Member">Correct the casing of '{0}' in member name {1} by changing it to '{2}'.</Resolution>
-   <Resolution Name="Namespace">Correct the casing of '{0}' in namespace name '{1}' by changing it to '{2}'.</Resolution>
-   <Resolution Name="Type">Correct the casing of '{0}' in type name {1} by changing it to '{2}'.</Resolution>
+   <Name>Identificadores devem ter a grafia correta de maiúsculas e minúsculas</Name>
+   <Description>Os identificadores de tipo, namespace e membro seguem o padrão Pascal-Case. Os identificadores de parâmetro seguem o padrão Camel-Case. Acrônimos de duas letras nesses identificadores devem seguir o padrão Upper-Case; por exemplo, use System.IO em vez de System.Io. Acrônimos de três ou mais letras devem seguir o padrão Pascal-Case; por exemplo, use System.Xml em vez de System.XML. Na convenção Pascal-Case, a primeira letra de cada palavra fica em maiúscula, como em BackColor. Na convenção Camel-Case, a primeira letra da primeira palavra fica em minúscula e a primeira letra de todas as palavras subsequentes fica em maiúscula, como em backgroundColor. Embora seja prática comum que alguns acrônimos de duas letras não fiquem totalmente em maiúsculas, violações desta regra não devem ser excluídas por esse motivo. Por exemplo, 'DbConnection' é comum, mas incorreto; use DBConnection. Uma violação dessa regra poderá ser necessária para fins de compatibilidade com esquemas de símbolos não gerenciados existentes. Porém, de modo geral, é recomendável que esses símbolos não fiquem visíveis fora do assembly que os utiliza.</Description>
+   <Resolution Name="Assembly">Corrija o uso de maiúsculas e minúsculas de '{0}' no nome de assembly {1} alterando-o para '{2}'.</Resolution>
+   <Resolution Name="Namespace">Corrija o uso de maiúsculas e minúsculas de '{0}' no nome de namespace '{1}' alterando-o para '{2}'.</Resolution>
+   <Resolution Name="Type">Corrija o uso de maiúsculas e minúsculas de '{0}' no nome de tipo {1} alterando-o para '{2}'.</Resolution>
    <Owner />
    <Url>http://msdn.microsoft.com/library/ms182240.aspx</Url>
    <Email>[none]</Email>
    <MessageLevel Certainty="85">Error</MessageLevel>
-   <File Name="namingrules.dll" Version="14.0.0.0" />
-  </Rule>
-  <Rule TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704">
-   <Name>Identifiers should be spelled correctly</Name>
-   <Description>The individual words that make up an identifier should not be abbreviated and should be spelled correctly. If this rule generates a false positive on a term that should be recognized, add the word to the FxCop custom dictionary.</Description>
-   <Resolution Name="Member">Correct the spelling of '{0}' in member name {1} or remove it entirely if it represents any sort of Hungarian notation.</Resolution>
-   <Resolution Name="Type">Correct the spelling of '{0}' in type name {1}.</Resolution>
-   <Owner />
-   <Url>http://msdn.microsoft.com/library/bb264492.aspx</Url>
-   <Email>[none]</Email>
-   <MessageLevel Certainty="75">CriticalWarning</MessageLevel>
-   <File Name="namingrules.dll" Version="14.0.0.0" />
+   <File Name="namingrules.dll" Version="16.0.0.0" />
   </Rule>
   <Rule TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240">
-   <Name>Implement ISerializable correctly</Name>
-   <Description>If a type is assignable to ISerializable, it should implement GetObjectData. For unsealed types, the GetObjectData method should be callable and overridable by derived types.</Description>
-   <Resolution Name="Default">Add an implementation of GetObjectData to type {0}.</Resolution>
+   <Name>Implementar ISerializable corretamente</Name>
+   <Description>Se um tipo for atribuível a ISerializable, ele deve implementar GetObjectData. Para tipos não selado, o método GetObjectData deve ser chamável e substituível por tipos derivados.</Description>
+   <Resolution Name="Default">Adicione uma implementação de GetObjectData ao tipo {0}.</Resolution>
    <Owner />
    <Url>http://msdn.microsoft.com/library/ms182342.aspx</Url>
    <Email>[none]</Email>
    <MessageLevel Certainty="60">Error</MessageLevel>
-   <File Name="usagerules.dll" Version="14.0.0.0" />
-  </Rule>
-  <Rule TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204">
-   <Name>Literals should be spelled correctly</Name>
-   <Description>This rule parses the literal string into words, tokenizing compound words, and checks the spelling of each word/token.</Description>
-   <Resolution Name="Default">Correct the spelling of the unrecognized token '{0}' in the literal '{1}'.</Resolution>
-   <Owner>RuleOwner</Owner>
-   <Url>http://msdn.microsoft.com/library/bb264488.aspx</Url>
-   <Email />
-   <MessageLevel Certainty="75">Warning</MessageLevel>
-   <File Name="dataflowrules.dll" Version="14.0.0.0" />
+   <File Name="usagerules.dll" Version="16.0.0.0" />
   </Rule>
   <Rule TypeName="MarkAssembliesWithClsCompliant" Category="Microsoft.Design" CheckId="CA1014">
-   <Name>Mark assemblies with CLSCompliantAttribute</Name>
-   <Description>Assemblies should explicitly state their CLS compliance using the CLSCompliant attribute. An assembly without this attribute is not CLS-compliant. Assemblies, modules, and types can be CLS-compliant even if some parts of the assembly, module, or type are not CLS-compliant. The following rules apply: 1) If the element is marked CLSCompliant, any noncompliant members must have the CLSCompliant attribute present with its argument set to false. 2) A comparable CLS-compliant alternative member must be supplied for each member that is not CLS-compliant.</Description>
-   <Resolution Name="Default">Mark {0} with CLSCompliant(true) because it exposes externally visible types.</Resolution>
+   <Name>Marcar assemblies com CLSCompliantAttribute</Name>
+   <Description>Os assemblies devem indicar explicitamente sua conformidade com CLS usando o atributo CLSCompliant. Um assembly sem esse atributo não é compatível com CLS. Assemblies, módulos e tipos podem ser compatíveis com CLS mesmo se algumas partes do assembly, módulo ou tipo não forem compatíveis com CLS. As seguintes regras se aplicam: 1) Se o elemento for marcado com CLSCompliant, os membros fora de conformidade deverão ter o atributo CLSCompliant presente com seu argumento definido como false. 2) Um membro alternativo comparável em conformidade com CLS deve ser fornecido para cada membro que não esteja em conformidade com CLS.</Description>
+   <Resolution Name="Default">Marque {0} com CLSCompliant(true) porque expõe externamente os tipos visíveis.</Resolution>
    <Owner />
    <Url>http://msdn.microsoft.com/library/ms182156.aspx</Url>
    <Email>[none]</Email>
    <MessageLevel Certainty="95">Error</MessageLevel>
-   <File Name="designrules.dll" Version="14.0.0.0" />
+   <File Name="designrules.dll" Version="16.0.0.0" />
   </Rule>
   <Rule TypeName="MarkAssembliesWithNeutralResourcesLanguage" Category="Microsoft.Performance" CheckId="CA1824">
-   <Name>Mark assemblies with NeutralResourcesLanguageAttribute</Name>
-   <Description>The NeutralResourcesLanguage attribute informs the ResourceManager of the language used to render the neutral culture's resources for an assembly. When looking up resources in the same culture as the neutral resources language, the ResourceManager automatically uses the resources located in the main assembly, instead of searching for a satellite assembly with the current user interface culture for the current thread. This will improve lookup performance for the first resource you load and can reduce your working set.</Description>
-   <Resolution Name="Default">Because assembly {0} contains a ResX-based resource file, mark it with the NeutralResourcesLanguage attribute, specifying the language of the resources within the assembly. This could improve lookup performance the first time a resource is retrieved.</Resolution>
+   <Name>Marque assemblies com NeutralResourcesLanguageAttribute</Name>
+   <Description>O atributo NeutralResourcesLanguage informa o ResourceManager do idioma usado para renderizar os recursos da cultura neutra para um assembly. Ao consultar recursos na mesma cultura do idioma de recursos neutros, o ResourceManager usa automaticamente os recursos localizados no assembly principal, em vez de procurar por um assembly satélite com a cultura da interface de usuário atual para o thread atual. Isso melhorará o desempenho da pesquisa para o primeiro recurso carregado e poderá reduzir o conjunto de trabalho.</Description>
+   <Resolution Name="Default">Como o assembly {0} contém um arquivo de recursos baseado em ResX, marque-o com o atributo NeutralResourcesLanguage, especificando o idioma dos recursos dentro do assembly. Isso poderá melhorar o desempenho da pesquisa na primeira vez que um recurso for recuperado.</Resolution>
    <Owner />
    <Url>http://msdn.microsoft.com/library/bb385967.aspx</Url>
    <Email>[none]</Email>
    <MessageLevel Certainty="95">Warning</MessageLevel>
-   <File Name="performancerules.dll" Version="14.0.0.0" />
+   <File Name="performancerules.dll" Version="16.0.0.0" />
   </Rule>
   <Rule TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822">
-   <Name>Mark members as static</Name>
-   <Description>Methods which do not access instance data or call instance methods can be marked as static (Shared in Visual Basic). After doing so, the compiler will emit non-virtual call sites to these members which will prevent a check at runtime for each call that ensures the current object pointer is non-null. This can result in a measurable performance gain for performance-sensitive code. In some cases, the failure to access the current object instance represents a correctness issue.</Description>
-   <Resolution Name="Default">The 'this' parameter (or 'Me' in Visual Basic) of {0} is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Resolution>
+   <Name>Marque membros como estáticos</Name>
+   <Description>Métodos que não acessam dados de instâncias ou não chamam métodos de instâncias podem ser marcados como estáticos (Compartilhados no Visual Basic). Depois de fazer isso, o compilador emitirá sites de chamadas não virtuais para esses membros, o que evitará uma verificação no tempo de execução para cada chamada que assegurar que o ponteiro de objeto atual é não nulo. Isso pode resultar em um ganho de desempenho mensurável para código sensível ao desempenho. Em alguns casos, a falha em acessar a instância de objeto atual representa um problema de exatidão.</Description>
+   <Resolution Name="Default">O parâmetro 'this' (ou 'Me' no Visual Basic) de {0} nunca é usado. Marque o membro como estático (ou Compartilhado no Visual Basic) ou use 'this'/'Me' no corpo do método ou pelo menos um acessador de propriedade, se for adequado.</Resolution>
    <Owner />
    <Url>http://msdn.microsoft.com/library/ms245046.aspx</Url>
    <Email>[none]</Email>
    <MessageLevel Certainty="95">Warning</MessageLevel>
-   <File Name="performancerules.dll" Version="14.0.0.0" />
+   <File Name="performancerules.dll" Version="16.0.0.0" />
   </Rule>
-  <Rule TypeName="RemoveUnusedLocals" Category="Microsoft.Performance" CheckId="CA1804">
-   <Name>Remove unused locals</Name>
-   <Description>Remove locals that are not used or are only assigned to in method implementations.</Description>
-   <Resolution Name="Default">{0} declares a variable, {1}, of type {2}, which is never used or is only assigned to. Use this variable or remove it.</Resolution>
-   <Owner />
-   <Url>http://msdn.microsoft.com/library/ms182278.aspx</Url>
-   <Email>[none]</Email>
-   <MessageLevel Certainty="95">Warning</MessageLevel>
-   <File Name="performancerules.dll" Version="14.0.0.0" />
+  <Rule TypeName="Não passar literais como parâmetros localizados" Category="Microsoft.Globalization" CheckId="CA1303">
+   <Name>Não passar literais como parâmetros localizados</Name>
+   <Description>As cadeias de caracteres literais que são inseridas no código-fonte são difíceis de localizar. Evite passar cadeias de caracteres literais como argumentos em circunstâncias em que uma cadeia de caracteres localizada é geralmente esperada.</Description>
+   <Resolution Name="KnownValue">O método {0} passa uma cadeia de caracteres literal como parâmetro "{1}" de uma chamada para {2}. Recupere as seguintes cadeias de caracteres de uma tabela de recursos: {3}.</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182187.aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="16.0.0.0" />
   </Rule>
   <Rule TypeName="SpecifyMessageBoxOptions" Category="Microsoft.Globalization" CheckId="CA1300">
-   <Name>Specify MessageBoxOptions</Name>
-   <Description>In order to run correctly on right-to-left systems, all calls to MessageBox.Show should use the overload that specifies MessageBoxOptions as an argument. Programs should detect whether they are running on a right-to-left system at run-time and pass the appropriate MessageBoxOptions value in order to display correctly.</Description>
-   <Resolution Name="Default">Change {0} to call the MessageBox.Show overload that specifies MessageBoxOptions, and make sure to set MessageBoxOptions.RightAlign and MessageBoxOptions.RtlReading if RightToLeft is set to RightToLeft.Yes on the parent control.</Resolution>
+   <Name>Especificar MessageBoxOptions</Name>
+   <Description>Para executar corretamente em sistemas da direita para a esquerda, todas as chamadas para MessageBox.Show devem usar a sobrecarga que especifica MessageBoxOptions como argumento. Os programas devem detectar se estão executando em um sistema da direita para a esquerda no tempo de execução e passar o valor MessageBoxOptions apropriado para que sejam exibidos corretamente.</Description>
+   <Resolution Name="Default">Altere {0} para chamar a sobrecarga MessageBox.Show que especifica MessageBoxOptions, e defina MessageBoxOptions.RightAlign e MessageBoxOptions.RtlReading se RightToLeft estiver definido para RightToLeft.Yes no controle pai.</Resolution>
    <Owner />
    <Url>http://msdn.microsoft.com/library/ms182191.aspx</Url>
    <Email>[none]</Email>
    <MessageLevel Certainty="95">Error</MessageLevel>
-   <File Name="globalizationrules.dll" Version="14.0.0.0" />
+   <File Name="globalizationrules.dll" Version="16.0.0.0" />
   </Rule>
  </Rules>
  <Localized>
-  <String Key="Category">Category</String>
-  <String Key="Certainty">Certainty</String>
-  <String Key="CollapseAll">Collapse All</String>
-  <String Key="CheckId">Check Id</String>
-  <String Key="Error">Error</String>
-  <String Key="Errors">error(s)</String>
-  <String Key="ExpandAll">Expand All</String>
-  <String Key="Help">Help</String>
-  <String Key="Line">Line</String>
-  <String Key="Messages">message(s)</String>
-  <String Key="LocationNotStoredInPdb">[Location not stored in Pdb]</String>
-  <String Key="Project">Project</String>
-  <String Key="Resolution">Resolution</String>
-  <String Key="Rule">Rule</String>
-  <String Key="RuleFile">Rule File</String>
-  <String Key="RuleDescription">Rule Description</String>
-  <String Key="Source">Source</String>
+  <String Key="Category">Categoria</String>
+  <String Key="Certainty">Certeza</String>
+  <String Key="CollapseAll">Recolher Tudo</String>
+  <String Key="CheckId">Verificar ID</String>
+  <String Key="Error">Erro</String>
+  <String Key="Errors">erro(s)</String>
+  <String Key="ExpandAll">Expandir Tudo</String>
+  <String Key="Help">Ajuda</String>
+  <String Key="Line">Linha</String>
+  <String Key="Messages">mensagem(ns)</String>
+  <String Key="LocationNotStoredInPdb">[Local não armazenado em Pdb]</String>
+  <String Key="Project">Projeto</String>
+  <String Key="Resolution">Resolução</String>
+  <String Key="Rule">Regra</String>
+  <String Key="RuleFile">Arquivo de Regra</String>
+  <String Key="RuleDescription">Descrição da Regra</String>
+  <String Key="Source">Origem</String>
   <String Key="Status">Status</String>
-  <String Key="Target">Target</String>
-  <String Key="Warning">Warning</String>
-  <String Key="Warnings">warning(s)</String>
-  <String Key="ReportTitle">Code Analysis Report</String>
+  <String Key="Target">Destino</String>
+  <String Key="Warning">Aviso</String>
+  <String Key="Warnings">aviso(s)</String>
+  <String Key="ReportTitle">Relatório de Análise de Código</String>
  </Localized>
 </FxCopReport>
